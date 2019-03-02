@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RoomScript : MonoBehaviour
 {
+
+    public string RoomName;
+
     float currentPressure;
     public float CurrentPressure
     {
