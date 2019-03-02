@@ -282,7 +282,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1476019683, guid: af7c7ee0592d16046bb22198778ff2f4, type: 3}
       propertyPath: m_Name
-      value: RigidBodyFPSController (1)
+      value: RigidBodyFPSController
       objectReference: {fileID: 0}
     - target: {fileID: 1476019687, guid: af7c7ee0592d16046bb22198778ff2f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -342,6 +342,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493658105302502139, guid: af7c7ee0592d16046bb22198778ff2f4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493658105302502139, guid: af7c7ee0592d16046bb22198778ff2f4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -45.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493658105302502139, guid: af7c7ee0592d16046bb22198778ff2f4,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493658105302502138, guid: af7c7ee0592d16046bb22198778ff2f4,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493658105302502138, guid: af7c7ee0592d16046bb22198778ff2f4,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5483155231486892564, guid: af7c7ee0592d16046bb22198778ff2f4,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af7c7ee0592d16046bb22198778ff2f4, type: 3}
