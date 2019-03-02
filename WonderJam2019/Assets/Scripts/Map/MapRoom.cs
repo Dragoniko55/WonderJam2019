@@ -30,8 +30,8 @@ public class MapRoom : MapObject
         this.roomScript.OnRoomChange += this.Render;
         this.roomScript.OnRoomChange += this.GenerateDescription;
 
-        Singleton<PressureManager>.Instance.GeneratedGraphs += this.Render;
-        Singleton<PressureManager>.Instance.GeneratedGraphs += this.GenerateDescription;
+        Singleton<PressureManager>.Instance.GeneratedGraphs += c => this.Render();
+        Singleton<PressureManager>.Instance.GeneratedGraphs += c => this.GenerateDescription();
 
         // Set room name
         this.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = this.roomScript.RoomName;

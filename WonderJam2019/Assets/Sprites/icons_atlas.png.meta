@@ -1,10 +1,7 @@
 fileFormatVersion: 2
 guid: 8ea37bae27982354981da7783f1ea7ae
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: icons_atlas_0
-    21300002: icons_atlas_1
-    21300004: icons_atlas_2
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -85,71 +82,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: icons_atlas_0
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 89
-        width: 76
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00c1a64dc248d6545bcc70183a91ad4c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icons_atlas_1
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 92
-        width: 73
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae0129a54c73dbd4998ca8b2ca0074d3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icons_atlas_2
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 10
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5121a876e8ff6449ad4ae201b44711d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0c1c312d6a66b2640848d5d68156aa97
+    spriteID: 9cecbaad7479d9e4c97b1e9b1b736003
     vertices: []
     indices: 
     edges: []

@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.TextCore;
 using TMPro;
+using System.Text;
 
 public class MapManager : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class MapManager : MonoBehaviour
     private MapObject selectedMapObject;
     private RectTransform mapSurface;
     private RectTransform legendPane;
+    private TextMeshProUGUI networkPaneText;
 
     private void Start()
     {
@@ -49,6 +51,34 @@ public class MapManager : MonoBehaviour
 
         this.legendPane = FindObjectsOfType<RectTransform>().FirstOrDefault(rt => rt.name == "LegendPane");
         if (this.legendPane is null) throw new System.NullReferenceException("Could not find the Legend Pane.");
+
+        this.networkPaneText = FindObjectsOfType<TextMeshProUGUI>().FirstOrDefault(rt => rt.name == "NetworkPaneText");
+        if (this.networkPaneText is null) throw new System.NullReferenceException("Could not find the Network Pane Text.");
+
+        // Bind events
+        Singleton<PressureManager>.Instance.GeneratedGraphs += this.UpdateNetworkPane;
+
+        // Update network pane
+        this.UpdateNetworkPane(Singleton<PressureManager>.Instance.NetworkCount);
+    }
+
+    private void UpdateNetworkPane(int networkCount)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine("<size=150%><b>Réseaux</b><size=100%>");
+        if(networkCount > 0)
+        {
+            for(int i = 0; i < networkCount; ++i)
+            {
+                sb.AppendLine($"<sprite=\"icons_atlas\" index=3 color=#{ColorUtility.ToHtmlStringRGB(this.NetworkColors[i])} tint=1> Pièces appartenant au réseau {i}");
+            }
+        }
+        else
+        {
+            sb.AppendLine("Aucun réseau d'oxygène! YOU DED.");
+        }
+
+        this.networkPaneText.text = sb.ToString();
     }
 
     public void ShowDescription(string description)

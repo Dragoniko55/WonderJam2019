@@ -11,7 +11,8 @@ public class PressureManager : MonoBehaviour
     private Dictionary<OxygenConsumer, HashSet<OxygenController>> _consumersToControllers { get; } = new Dictionary<OxygenConsumer, HashSet<OxygenController>>();
     private Dictionary<OxygenController, HashSet<OxygenProducer>> _controllersToProducers { get; } = new Dictionary<OxygenController, HashSet<OxygenProducer>>();
 
-    public event Action GeneratedGraphs;
+    public event Action<int> GeneratedGraphs;
+    public int NetworkCount => this._networks.Count;
 
     public int GetNetworkIndex(OxygenConsumer consumer)
     {
@@ -131,7 +132,7 @@ public class PressureManager : MonoBehaviour
         this.UpdatePressureLevels();
 
         if(this.GeneratedGraphs != null)
-            this.GeneratedGraphs();
+            this.GeneratedGraphs(this._networks.Count);
     }
 
     private void UpdatePressureLevels()
