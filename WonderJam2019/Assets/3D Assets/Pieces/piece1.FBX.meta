@@ -11,6 +11,14 @@ ModelImporter:
     100010: //RootNode
     100012: sol
     100014: toit
+    100016: backDoor
+    100018: backWall
+    100020: frontDoor
+    100022: frontWall
+    100024: leftDoor
+    100026: leftWall
+    100028: rightDoor
+    100030: rightWall
     400000: Box003
     400002: Box004
     400004: Box005
@@ -19,6 +27,14 @@ ModelImporter:
     400010: //RootNode
     400012: sol
     400014: toit
+    400016: backDoor
+    400018: backWall
+    400020: frontDoor
+    400022: frontWall
+    400024: leftDoor
+    400026: leftWall
+    400028: rightDoor
+    400030: rightWall
     2100000: default
     2100002: No Name
     2300000: Box003
@@ -28,6 +44,14 @@ ModelImporter:
     2300008: personnage
     2300010: sol
     2300012: toit
+    2300014: backDoor
+    2300016: backWall
+    2300018: frontDoor
+    2300020: frontWall
+    2300022: leftDoor
+    2300024: leftWall
+    2300026: rightDoor
+    2300028: rightWall
     3300000: Box003
     3300002: Box004
     3300004: Box005
@@ -35,6 +59,14 @@ ModelImporter:
     3300008: personnage
     3300010: sol
     3300012: toit
+    3300014: backDoor
+    3300016: backWall
+    3300018: frontDoor
+    3300020: frontWall
+    3300022: leftDoor
+    3300024: leftWall
+    3300026: rightDoor
+    3300028: rightWall
     4300000: personnage
     4300002: sol
     4300004: Box003
@@ -42,6 +74,14 @@ ModelImporter:
     4300008: Box005
     4300010: Line001
     4300012: toit
+    4300014: backWall
+    4300016: leftWall
+    4300018: rightWall
+    4300020: frontWall
+    4300022: frontDoor
+    4300024: backDoor
+    4300026: leftDoor
+    4300028: rightDoor
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -5,6 +5,7 @@ using UnityEngine;
 public class DoorScript : MonoBehaviour
 {
     [SerializeField] GameObject LinkedRoom;
+    [SerializeField] private bool isOpen = false;
 
     RoomScript room;
     Transform doortransform;
@@ -17,6 +18,7 @@ public class DoorScript : MonoBehaviour
     Vector3 initposs;
     Vector3 targetposs;
 
+    public event System.Action OnDoorChange;
 
     private void Start()
     {
@@ -53,8 +55,7 @@ public class DoorScript : MonoBehaviour
         else
         {
             Debug.Log("WARNING PRESSURE TOO LOW");
-        }
-            
+        }            
     }
 
     IEnumerator openandclose()
