@@ -26,8 +26,6 @@ public class DoorScript : MonoBehaviour
         initposs = doortransform.position;
         targetposs = new Vector3(doortransform.position.x + 2, doortransform.position.y, doortransform.position.z);
         
-
-        Interact();
     }
 
     void Update()
