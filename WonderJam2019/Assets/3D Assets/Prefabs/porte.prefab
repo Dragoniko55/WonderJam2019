@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6816707280328468595}
   - component: {fileID: 4314549668456113537}
   - component: {fileID: 8280780590079807372}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tube003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9802151580881969}
   m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.000000036334992, y: 0.368612, z: 0}
+  m_LocalPosition: {x: 0.000000036334992, y: 0.066, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3962149144453191471}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 6131974131290126616}
   - component: {fileID: 1757428687371435927}
   - component: {fileID: 7525578793142515813}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2291066300937379074}
   m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.000000036334992, y: 0.28537676, z: 0}
+  m_LocalPosition: {x: 0.000000036334992, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3962149144453191471}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 680615813904364257}
   - component: {fileID: 4502921458477464897}
   - component: {fileID: 1810593159935439453}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tube002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4845512262359440909}
   m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.000000036334992, y: 0.085376374, z: 0}
+  m_LocalPosition: {x: 0.000000036334992, y: -0.184, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3962149144453191471}
@@ -241,7 +241,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3962149144453191471}
   - component: {fileID: 7811000491748181940}
-  m_Layer: 0
+  - component: {fileID: 5700195625278380735}
+  m_Layer: 9
   m_Name: porte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6194855574443937717}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.7894249, y: 0.76628613, z: 0.19185925}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6131974131290126616}
@@ -277,3 +278,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79107faf9ce3d0a4cb2f2564e7fae95c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LinkedRoom: {fileID: 0}
+--- !u!65 &5700195625278380735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194855574443937717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.186027, y: 0.4084975, z: 2.1376998}
+  m_Center: {x: 0.013354778, y: -0.09669159, z: 0.039941788}
