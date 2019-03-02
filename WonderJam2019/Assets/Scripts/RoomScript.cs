@@ -4,8 +4,38 @@ using UnityEngine;
 
 public class RoomScript : MonoBehaviour
 {
-    [SerializeField] float currentPressure;
-    [SerializeField] float RequiredPressure;
+
+    public string RoomName;
+
+    float currentPressure;
+    public float CurrentPressure
+    {
+        get
+        {
+            return this.currentPressure;
+        }
+        set
+        {
+            this.currentPressure = value;
+            this.OnRoomChange();
+        }
+    }
+
+    float requiredPressure;
+    public float RequiredPressure
+    {
+        get
+        {
+            return this.requiredPressure;
+        }
+        set
+        {
+            this.requiredPressure = value;
+            this.OnRoomChange();
+        }
+    }
+
+    public event System.Action OnRoomChange;
 
     // Start is called before the first frame update
     void Start()
@@ -21,17 +51,9 @@ public class RoomScript : MonoBehaviour
 
     public bool isPressurised()
     {
-        /*if (currentPressure >= RequiredPressure)
+        if (currentPressure >= RequiredPressure)
             return true;
         else
-            return false;*/
-
-        if (Random.value >= 0.5)
-        {
-            return true;
-        }
-        return false;
-
-
+            return false;
     }
 }
