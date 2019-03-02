@@ -45,7 +45,7 @@ public class DoorScript : MonoBehaviour
 
     public void Interact()
     {
-        bool CanOpen = room.isPressurised();
+        bool CanOpen = room.IsPressurised();
 
         if (CanOpen)
         {

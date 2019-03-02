@@ -8,8 +8,11 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(Outline))]
 public class MapRoom : MapObject
 {
-    private RoomScript roomScript;
+    public int SecondsHighlighted = 5;
+
+    private RoomScript roomScript;    
     private Outline outline;
+    private MapValve[] mapValves;
 
     protected override void Awake()
     {
@@ -23,18 +26,35 @@ public class MapRoom : MapObject
         this.outline = this.GetComponent<Outline>();
         if (this.outline is null) throw new System.NullReferenceException("GameObject must have Outline component attached to it.");
 
-        // Bind render event
+        // Bind render and description event
         this.roomScript.OnRoomChange += this.Render;
         this.roomScript.OnRoomChange += this.GenerateDescription;
+
+        Singleton<PressureManager>.Instance.GeneratedGraphs += this.Render;
+        Singleton<PressureManager>.Instance.GeneratedGraphs += this.GenerateDescription;
+
+        // Set room name
+        this.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = this.roomScript.RoomName;
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+
+        // Get map valves
+        this.mapValves = Singleton<PressureManager>.Instance
+            .GetLinkedControllers(this.roomScript.OxygenConsumer)
+            .Select(v => v.GetComponent<ValveScript>().mapValve)
+            .ToArray();
     }
 
     public override void Render()
     {
         // var roomContainer = rootMap.transform.Find(MapManager.RoomsContainerName);
         // if (roomContainer is null) throw new System.NullReferenceException("Room folder not found in the specified canvas.");
-
+        
         // TODO: get the network id from the singleton by passing reference to roomScript
-        var network_id = 0;
+        var network_id = Singleton<PressureManager>.Instance.GetNetworkIndex(this.roomScript.OxygenConsumer);
         
         if(network_id > -1)
         {
@@ -49,7 +69,7 @@ public class MapRoom : MapObject
             this.outline.enabled = false;
         }
 
-        if(this.roomScript.isPressurised())
+        if(this.roomScript.IsPressurised())
         {
             this.displayImage.color = Color.blue;
         }
@@ -57,9 +77,6 @@ public class MapRoom : MapObject
         {
             this.displayImage.color = Color.red;
         }
-
-        Debug.Log(this.roomScript.CurrentPressure);
-        Debug.Log(this.roomScript.RequiredPressure);
     }
 
     protected override void GenerateDescription()
@@ -68,11 +85,39 @@ public class MapRoom : MapObject
         sb.Append(this.roomScript.RoomName);
         sb.Append("</b><size=100%>");
         sb.Append(System.Environment.NewLine);
-        sb.Append("Network ID: x");
+        sb.Append("Network ID: ");
+        sb.Append(Singleton<PressureManager>.Instance.GetNetworkIndex(this.roomScript.OxygenConsumer).ToString());
         sb.Append(System.Environment.NewLine);
-        sb.Append("Room pressure:");
+        sb.Append("Room pressure: ");
         sb.Append(this.roomScript.CurrentPressure);
-        sb.Append(" kpA");
+        sb.Append(" units");
+        sb.Append(System.Environment.NewLine);
+        sb.Append("Room volume: ");
+        sb.Append(this.roomScript.OxygenConsumer.Volume);
+        sb.Append(" units");
         this.objectDescription = sb.ToString();
+    }
+
+
+    public override void OnSelected()
+    {
+        base.OnSelected();
+
+        Debug.Log(mapValves.Count());
+
+        foreach (var mapValve in this.mapValves)
+        {
+            mapValve.Higlight();
+        }
+    }
+
+    public override void OnUnselected()
+    {
+        base.OnUnselected();
+
+        foreach (var mapValve in this.mapValves)
+        {
+            mapValve.UnHighlight();
+        }
     }
 }

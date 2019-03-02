@@ -7,11 +7,13 @@ using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Image))]
 [RequireComponent(typeof(RectTransform))]
-public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     protected Image displayImage;
     protected GameObject rootMap;
     protected string objectDescription;
+
+    protected bool selected = false;
 
     /// <summary>
     /// Init component
@@ -40,6 +42,33 @@ public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerE
     public abstract void Render();
 
     protected abstract void GenerateDescription();
+
+
+    public virtual void OnSelected()
+    {
+        this.selected = true;
+    }
+
+    public virtual void OnUnselected()
+    {
+        this.selected = false;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        Debug.Log("CLICKED");
+
+        if(!this.selected)
+        {
+            Singleton<MapManager>.Instance.Select(this);
+            this.OnSelected();
+        }
+        else
+        {
+            Singleton<MapManager>.Instance.Select(null);
+            this.OnUnselected();
+        }
+    }
 
     public virtual void OnPointerExit(PointerEventData eventData)
     {

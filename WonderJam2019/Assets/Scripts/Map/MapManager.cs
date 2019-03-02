@@ -32,6 +32,7 @@ public class MapManager : MonoBehaviour
 
     private bool showDescription = false;
     private RectTransform descriptionPane;
+    private MapObject selectedMapObject;
 
     private void Start()
     {
@@ -52,6 +53,16 @@ public class MapManager : MonoBehaviour
         this.descriptionPane.GetComponentInChildren<TextMeshProUGUI>().text = string.Empty;
         this.showDescription = false;
         this.descriptionPane.gameObject.SetActive(false);
+    }
+
+    public void Select(MapObject mapObject)
+    {
+        if(this.selectedMapObject != null && mapObject != this.selectedMapObject)
+        {
+            this.selectedMapObject.OnUnselected();
+        }
+
+        this.selectedMapObject = mapObject;
     }
 
     private void FixedUpdate()
