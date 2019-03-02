@@ -21,17 +21,9 @@ public class RoomScript : MonoBehaviour
 
     public bool isPressurised()
     {
-        /*if (currentPressure >= RequiredPressure)
+        if (currentPressure >= RequiredPressure)
             return true;
         else
-            return false;*/
-
-        if (Random.value >= 0.5)
-        {
-            return true;
-        }
-        return false;
-
-
+            return false;
     }
 }
