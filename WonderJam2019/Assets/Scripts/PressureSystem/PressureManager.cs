@@ -5,15 +5,31 @@ using UnityEngine;
 
 public class PressureManager : MonoBehaviour
 {
-    private List<PressureGraph> _networks { get; }
+    private List<PressureGraph> _networks { get; } = new List<PressureGraph>();
 
     private Dictionary<OxygenConsumer, HashSet<OxygenController>> _consumersToControllers { get; } = new Dictionary<OxygenConsumer, HashSet<OxygenController>>();
     private Dictionary<OxygenController, HashSet<OxygenProducer>> _controllersToProducers { get; } = new Dictionary<OxygenController, HashSet<OxygenProducer>>();
 
+    public int GetNetworkIndex(OxygenConsumer consumer)
+    {
+        throw new NotImplementedException();
+    }
+
+    public IEnumerable<OxygenController> GetLinkedControllers(OxygenProducer oxygenProducer)
+    {
+        return this._networks
+            .FirstOrDefault(n => n.Contains(oxygenProducer))
+            ?.Controllers
+            ?? Enumerable.Empty<OxygenController>();
+    }
+
     private void Start()
     {
+        Debug.Log("Started building the graph.");
+
+        var controllers = FindObjectsOfType<OxygenController>();
         // Create a reverse lookup for controllers.
-        foreach (var controller in FindObjectsOfType<OxygenController>())
+        foreach (var controller in controllers)
         {
             foreach (var consumer in controller.OxygenConsumers)
             {
@@ -57,7 +73,37 @@ public class PressureManager : MonoBehaviour
         }
 
         // Register for events.
+        foreach (var controller in controllers)
+        {
+            controller.Opened += this.Controller_Opened;
+        }
 
+        Debug.Log("Built the graph.");
+        Debug.Log($"{this._networks.Count} networks, {this._networks.SelectMany(n => n.Consumers).Count()} consumers, {this._networks.SelectMany(n => n.Controllers).Count()} controllers, {this._networks.SelectMany(n => n.Producers).Count()} producers.");
+    }
+
+    private void Controller_Opened(OxygenController controller)
+    {
+        throw new NotImplementedException();
+    }
+
+    private void Controller_Closed(OxygenController controller)
+    {
+        var network = this._networks.FirstOrDefault(n => n.Contains(controller));
+        if (network != null)
+        {
+
+        }
+
+        if (!this._networks.Any(n => n.Contains(controller)))
+        {
+            controller.Closed -= this.Controller_Closed;
+        }
+    }
+
+    private void Consumer_VolumeChanged(OxygenConsumer consumer)
+    {
+        throw new NotImplementedException();
     }
 
     private class PressureGraph
@@ -68,7 +114,7 @@ public class PressureManager : MonoBehaviour
 
         public IEnumerable<OxygenProducer> Producers => this._producers;
         public IEnumerable<OxygenController> Controllers => this._relationships.Keys;
-        public IEnumerable<OxygenConsumer> Consumers => this._relationships.Keys.SelectMany(c => c.OxygenConsumers);
+        public IEnumerable<OxygenConsumer> Consumers => this._relationships.Keys.SelectMany(c => c.OxygenConsumers).Distinct();
 
         public PressureGraph(PressureManager owner, OxygenProducer initialProducer)
         {
@@ -86,14 +132,26 @@ public class PressureManager : MonoBehaviour
             throw new NotImplementedException();
         }
 
+        public bool Contains(OxygenController controller)
+        {
+            return this._relationships.ContainsKey(controller);
+        }
+
+        public bool Contains(OxygenProducer producer)
+        {
+            return this._producers.Contains(producer);
+        }
+
         private void BuildGraph(OxygenProducer initialProducer)
         {
             var producers = new Queue<OxygenProducer>(new[] { initialProducer });
             var mappedControllers = new HashSet<OxygenController>();
 
-            foreach (var producer in producers)
+            while (producers.Count > 0)
             {
-                foreach (var controller in initialProducer.OxygenControllers)
+                var producer = producers.Dequeue();
+
+                foreach (var controller in producer.OxygenControllers)
                 {
                     foreach (var newProducer in this.MapController(controller))
                     {
@@ -109,15 +167,27 @@ public class PressureManager : MonoBehaviour
         {
             IEnumerable<OxygenProducer> returnValue = Enumerable.Empty<OxygenProducer>();
 
-            if (!this._relationships.ContainsKey(oxygenController))
+            if (oxygenController.IsOpened)
             {
-                this._relationships[oxygenController] = new HashSet<OxygenController>();
-                foreach (var consumer in oxygenController.OxygenConsumers)
+                if (!this._relationships.ContainsKey(oxygenController))
                 {
-                    foreach (var controller in this._owner._consumersToControllers[consumer])
+                    if (this._owner._controllersToProducers.ContainsKey(oxygenController))
                     {
-                        returnValue = returnValue.Union(this.MapController(controller));
+                        returnValue = returnValue.Union(this._owner._controllersToProducers[oxygenController]);
                     }
+
+                    this._relationships[oxygenController] = new HashSet<OxygenController>();
+                    foreach (var consumer in oxygenController.OxygenConsumers)
+                    {
+                        foreach (var controller in this._owner._consumersToControllers[consumer])
+                        {
+                            returnValue = returnValue.Union(this.MapController(controller));
+                        }
+
+                        consumer.VolumeChanged += this._owner.Consumer_VolumeChanged;
+                    }
+
+                    oxygenController.Closed += this._owner.Controller_Closed;
                 }
             }
 

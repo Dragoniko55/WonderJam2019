@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class OxygenController : MonoBehaviour
 {
-    public event Action Opened;
-    public event Action Closed;
+    [SerializeField] OxygenConsumer[] _oxygenConsumers;
 
-    public IEnumerable<OxygenConsumer> OxygenConsumers { get; }
+    public event Action<OxygenController> Opened;
+    public event Action<OxygenController> Closed;
+
+    public bool IsOpened { get; set; }
+    public IEnumerable<OxygenConsumer> OxygenConsumers => this._oxygenConsumers;
 }
