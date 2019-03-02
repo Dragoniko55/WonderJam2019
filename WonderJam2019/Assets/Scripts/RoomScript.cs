@@ -32,8 +32,7 @@ public class RoomScript : MonoBehaviour
         }
     }
 
-    public delegate void VoidEventHandler();
-    public event VoidEventHandler OnRoomChange;
+    public event System.Action OnRoomChange;
 
     // Start is called before the first frame update
     void Start()
