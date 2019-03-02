@@ -8,18 +8,21 @@ public class hudController : MonoBehaviour
     public Slider sliderOxygen; // Jauge representant le niveau oxygene
     public Text textInfo; // Texte affichant les informations importantes et utiles
 
-    // TESTS & DEBUG
+    private bool infoTextBlinking;
 
+    // TESTS & DEBUG
+    //bool test = false;
     // FIN TESTS & DEBUG
 
     // Start is called before the first frame update
     void Start()
     {
         sliderOxygen.value = 1.0f; // Jauge peine au début
-        textInfo.text = "!!!!!!!!!"; // Texte vide au début
+        textInfo.text = ""; // Texte vide au début
+        infoTextBlinking = false;
 
         // TESTS & DEBUG
-        StartCoroutine("makeTextInfoBlink");
+
         // FIN TESTS & DEBUG
     }
 
@@ -29,7 +32,13 @@ public class hudController : MonoBehaviour
 
 
         // TESTS & DEBUG
-
+        //if (!test)
+        //{
+        //    setOxygenValue(0.3f);
+        //    setTextInfo("MODE DEBUG", true);
+        //    //setTextInfo("MODE DEBUG", false);
+        //    test = true;
+        //}
         // FIN TESTS & DEBUG
     }
 
@@ -40,13 +49,23 @@ public class hudController : MonoBehaviour
         sliderOxygen.value = newOxygenValue;
     }
 
-    public void setTextInfo(string newText = "", bool textBlink = true)
+    public void setTextInfo(string newText = "", bool textBlink = false)
     {
         textInfo.text = newText;
-        if (textBlink) { StartCoroutine("makeTextInfoBlink"); }
+        if (textBlink && !infoTextBlinking)
+        {
+            StartCoroutine("makeTextBlink");
+            infoTextBlinking = true;
+        }
+        else if (!textBlink && infoTextBlinking)
+        {
+            StopCoroutine("makeTextBlink");
+            infoTextBlinking = false;
+            textInfo.color = new Color(0, 0, 0);
+        }
     }
 
-    IEnumerator makeTextInfoBlink()
+    IEnumerator makeTextBlink()
     {
         while (true)
         {
