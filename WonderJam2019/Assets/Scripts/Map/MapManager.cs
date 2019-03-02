@@ -32,9 +32,11 @@ public class MapManager : MonoBehaviour
 
     private bool showDescription = false;
     private bool mapShown = true;
+
     private RectTransform descriptionPane;
     private MapObject selectedMapObject;
     private RectTransform mapSurface;
+    private RectTransform legendPane;
 
     private void Start()
     {
@@ -44,6 +46,9 @@ public class MapManager : MonoBehaviour
 
         this.mapSurface = FindObjectsOfType<RectTransform>().FirstOrDefault(rt => rt.name == "Map Content");
         if (this.mapSurface is null) throw new System.NullReferenceException("Could not find the Map Content.");
+
+        this.legendPane = FindObjectsOfType<RectTransform>().FirstOrDefault(rt => rt.name == "LegendPane");
+        if (this.legendPane is null) throw new System.NullReferenceException("Could not find the Legend Pane.");
     }
 
     public void ShowDescription(string description)
@@ -83,7 +88,6 @@ public class MapManager : MonoBehaviour
         if (this.mapShown)
         {
             float factor = 0.25f;
-
             if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Equals))
             {
                 if (this.mapSurface.localScale.x < factor * 8)
@@ -100,6 +104,11 @@ public class MapManager : MonoBehaviour
                     this.mapSurface.localScale -= new Vector3(factor, factor, 0);
                     this.mapSurface.position += new Vector3(factor * this.mapSurface.sizeDelta.x / 2, factor / 2 * -1 * this.mapSurface.sizeDelta.y, 0);
                 }
+            }
+
+            else if(Input.GetKeyDown(KeyCode.H))
+            {
+                this.legendPane.gameObject.SetActive(!this.legendPane.gameObject.activeSelf);
             }
         }
     }
