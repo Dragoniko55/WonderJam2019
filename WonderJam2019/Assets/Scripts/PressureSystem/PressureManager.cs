@@ -30,7 +30,7 @@ public class PressureManager : MonoBehaviour
                 Enumerable.Empty<OxygenController>();
     }
 
-    private void Awake()
+    private void Start()
     {
         // Find the producers.
         this._producers = FindObjectsOfType<OxygenProducer>();
