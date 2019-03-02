@@ -6,9 +6,12 @@ public class LevelLoader : MonoBehaviour
 {
     public float f_waitBeforeLoad;
     public AsyncOperation operation;
+    public GameObject GO_skip;
+
     public void LoadLevel(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));
+        
     }
 
     IEnumerator LoadAsynchronously(int sceneIndex)
@@ -20,13 +23,28 @@ public class LevelLoader : MonoBehaviour
             
             float progress = Mathf.Clamp01(operation.progress / .9f);
             Debug.Log(progress);
-            yield return StartCoroutine("AllowOp"); 
+            if(progress == 1.0f)
+            {
+                GO_skip.SetActive(true);
+            }
+            yield return null;
+        }
+        
+    }
+
+    
+
+
+    void Update()
+    {
+        if (GO_skip.activeSelf)
+        {
+            if (Input.GetKeyDown("space"))
+            {
+                operation.allowSceneActivation = true;
+            }
         }
     }
-    IEnumerator AllowOp()
-    {
-        yield return new WaitForSeconds(f_waitBeforeLoad); 
-        operation.allowSceneActivation = true;
-    }
+
 
 }
