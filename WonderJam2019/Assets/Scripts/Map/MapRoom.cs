@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System.Linq;
 using UnityEngine.EventSystems;
 
-public class MapRoom : MapObject
+public class MapRoom : MapObject, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     // for testing
     private RoomScript roomScript;
@@ -46,17 +46,17 @@ public class MapRoom : MapObject
         Debug.Log(this.roomScript.RequiredPressure);
     }
 
-    public override void OnPointerEnter(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
         throw new System.NotImplementedException();
     }
 
-    public override void OnPointerExit(PointerEventData eventData)
+    public void OnPointerEnter(PointerEventData eventData)
     {
         throw new System.NotImplementedException();
     }
 
-    public override void OnPointerClick(PointerEventData eventData)
+    public void OnPointerExit(PointerEventData eventData)
     {
         throw new System.NotImplementedException();
     }

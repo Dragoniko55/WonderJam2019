@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(UnityEngine.UI.Image))]
 [RequireComponent(typeof(RectTransform))]
-public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public abstract class MapObject : MonoBehaviour
 {
     public Image displayImage;
     //public Vector2 position;
@@ -29,13 +29,5 @@ public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerE
         // TODO: Register in MapManager, need singleton class
     }
 
-    protected void ShowDescription(PointerEventData eventData)
-    {
-
-    }
-
     public abstract void Render();
-    public abstract void OnPointerEnter(PointerEventData eventData);
-    public abstract void OnPointerExit(PointerEventData eventData);
-    public abstract void OnPointerClick(PointerEventData eventData);
 }
