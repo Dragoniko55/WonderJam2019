@@ -344,3 +344,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LinkedRoom: {fileID: 0}
   isOpen: 0
+  animOpenDoor: {fileID: 6869146163558384277}
