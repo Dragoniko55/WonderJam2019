@@ -5,10 +5,11 @@ using UnityEngine.UI;
 using System.Linq;
 using UnityEngine.EventSystems;
 
-public class MapRoom : MapObject, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
+[RequireComponent(typeof(Outline))]
+public class MapRoom : MapObject
 {
-    // for testing
     private RoomScript roomScript;
+    private Outline outline;
 
     protected override void Awake()
     {
@@ -19,19 +20,34 @@ public class MapRoom : MapObject, IPointerClickHandler, IPointerEnterHandler, IP
         this.roomScript = FindObjectsOfType<RoomScript>().FirstOrDefault(o => o.name == this.name);
         if (this.roomScript is null) throw new System.NullReferenceException("GameObject must have RoomScript component attached to it.");
 
-        this.roomScript.OnRoomChange += this.Render;
-    }
+        this.outline = this.GetComponent<Outline>();
+        if (this.outline is null) throw new System.NullReferenceException("GameObject must have Outline component attached to it.");
 
-    private void Start()
-    {
-        // for testing
-        this.Render();
+        // Bind render event
+        this.roomScript.OnRoomChange += this.Render;
+        this.roomScript.OnRoomChange += this.GenerateDescription;
     }
 
     public override void Render()
     {
-        var roomContainer = rootMap.transform.Find(MapManager.RoomsContainerName);
-        if (roomContainer is null) throw new System.NullReferenceException("Room folder not found in the specified canvas.");
+        // var roomContainer = rootMap.transform.Find(MapManager.RoomsContainerName);
+        // if (roomContainer is null) throw new System.NullReferenceException("Room folder not found in the specified canvas.");
+
+        // TODO: get the network id from the singleton by passing reference to roomScript
+        var network_id = 0;
+        
+        if(network_id > -1)
+        {
+            if (!this.outline.enabled)
+                this.outline.enabled = true;
+
+            this.outline.effectColor = Singleton<MapManager>.Instance.NetworkColors[network_id];
+        }
+        else
+        {
+            // TODO: No network!
+            this.outline.enabled = false;
+        }
 
         if(this.roomScript.isPressurised())
         {
@@ -46,18 +62,17 @@ public class MapRoom : MapObject, IPointerClickHandler, IPointerEnterHandler, IP
         Debug.Log(this.roomScript.RequiredPressure);
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    protected override void GenerateDescription()
     {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
+        var sb = new System.Text.StringBuilder("<size=200%><b>Room ");
+        sb.Append(this.roomScript.RoomName);
+        sb.Append("</b><size=100%>");
+        sb.Append(System.Environment.NewLine);
+        sb.Append("Network ID: x");
+        sb.Append(System.Environment.NewLine);
+        sb.Append("Room pressure:");
+        sb.Append(this.roomScript.CurrentPressure);
+        sb.Append(" kpA");
+        this.objectDescription = sb.ToString();
     }
 }

@@ -5,30 +5,35 @@ using UnityEngine;
 public class DoorScript : MonoBehaviour
 {
     [SerializeField] GameObject LinkedRoom;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private bool isOpen = false;
+    
+    public event System.Action OnDoorChange;
+
+    public void Close()
     {
-        
+        // TODO: To Implement
+        this.isOpen = false;
+        this.OnDoorChange();
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool IsOpen()
     {
-        
+        return this.isOpen;
     }
 
-    public void open()
+    public void Open()
     {
         bool CanOpen = LinkedRoom.GetComponent<RoomScript>().isPressurised();
 
         if (CanOpen)
         {
             Debug.Log("Door Oppening");
+            this.isOpen = true;
+            this.OnDoorChange();
         } 
         else
         {
             Debug.Log("WARNING PRESSURE TOO LOW");
-        }
-            
+        }            
     }
 }
