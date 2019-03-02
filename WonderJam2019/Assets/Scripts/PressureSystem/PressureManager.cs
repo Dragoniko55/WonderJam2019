@@ -7,27 +7,36 @@ public class PressureManager : MonoBehaviour
 {
     private List<PressureGraph> _networks { get; } = new List<PressureGraph>();
 
+    private OxygenProducer[] _producers;
     private Dictionary<OxygenConsumer, HashSet<OxygenController>> _consumersToControllers { get; } = new Dictionary<OxygenConsumer, HashSet<OxygenController>>();
     private Dictionary<OxygenController, HashSet<OxygenProducer>> _controllersToProducers { get; } = new Dictionary<OxygenController, HashSet<OxygenProducer>>();
 
     public int GetNetworkIndex(OxygenConsumer consumer)
     {
-        throw new NotImplementedException();
+        return this._networks
+            .Select((obj, index) => new { obj, index })
+            .FirstOrDefault(oi => oi.obj.Contains(consumer))
+            ?.index ?? -1;
     }
 
-    public IEnumerable<OxygenController> GetLinkedControllers(OxygenProducer oxygenProducer)
+    public IEnumerable<OxygenController> GetLinkedControllers(OxygenConsumer oxygenConsumer)
     {
-        return this._networks
-            .FirstOrDefault(n => n.Contains(oxygenProducer))
-            ?.Controllers
-            ?? Enumerable.Empty<OxygenController>();
+        return this._consumersToControllers
+            .TryGetValue(oxygenConsumer, out var controllers) ? 
+                controllers : 
+                Enumerable.Empty<OxygenController>();
     }
 
     private void Start()
     {
-        Debug.Log("Started building the graph.");
+        // Find the producers.
+        this._producers = FindObjectsOfType<OxygenProducer>();
+        Debug.Log($"Found {this._producers.Length} oxygen producers.");
 
+        // Find the controllers.
         var controllers = FindObjectsOfType<OxygenController>();
+        Debug.Log($"Found {controllers.Length} oxygen controllers.");
+
         // Create a reverse lookup for controllers.
         foreach (var controller in controllers)
         {
@@ -41,6 +50,7 @@ public class PressureManager : MonoBehaviour
                 this._consumersToControllers[consumer].Add(controller);
             }
         }
+        Debug.Log($"Mapped {this._consumersToControllers.Keys.Count} oxygen consumers to their associated oxygen controllers.");
 
         // Create a revers lookup for producers.
         foreach (var producer in FindObjectsOfType<OxygenProducer>())
@@ -55,10 +65,46 @@ public class PressureManager : MonoBehaviour
                 this._controllersToProducers[controller].Add(producer);
             }
         }
+        Debug.Log($"Mapped {this._controllersToProducers.Keys.Count} oxygen controllers to their associated oxygen producers.");
 
-        // Map the producers.
+        // Build the initial networks and pressurise them.
+        this.BuildNetworks();
+
+        // Register for events.
+        foreach (var controller in controllers)
+        {
+            controller.Opened += this.Controller_StateChanged;
+        }
+    }
+
+    private void Controller_StateChanged(OxygenController controller)
+    {
+        this.RebuildNetworks();
+    }
+
+    private void Consumer_VolumeChanged(OxygenConsumer consumer)
+    {
+        this._networks.FirstOrDefault(n => n.Contains(consumer))?.UpdatePressureLevels();
+    }
+
+    private void RebuildNetworks()
+    {
+        // Unbind events.
+        foreach (var network in this._networks)
+        {
+            network.UnbindEvents();
+        }
+
+        // Rebuild the network graphs.
+        this._networks.Clear();
+        this.BuildNetworks();
+    }
+
+    private void BuildNetworks()
+    {
+        // Build the individual network graphs.
         var mappedProducers = new HashSet<OxygenProducer>();
-        foreach (var producer in FindObjectsOfType<OxygenProducer>())
+        foreach (var producer in this._producers)
         {
             if (!mappedProducers.Contains(producer))
             {
@@ -72,38 +118,22 @@ public class PressureManager : MonoBehaviour
             }
         }
 
-        // Register for events.
-        foreach (var controller in controllers)
-        {
-            controller.Opened += this.Controller_Opened;
-        }
+        Debug.Log(
+            $"Built the graph. {this._networks.Count} networks including " +
+            $"{this._networks.SelectMany(n => n.Consumers).Count()} consumers, " +
+            $"{this._networks.SelectMany(n => n.Controllers).Count()} controllers, " +
+            $"{this._networks.SelectMany(n => n.Producers).Count()} producers.");
 
-        Debug.Log("Built the graph.");
-        Debug.Log($"{this._networks.Count} networks, {this._networks.SelectMany(n => n.Consumers).Count()} consumers, {this._networks.SelectMany(n => n.Controllers).Count()} controllers, {this._networks.SelectMany(n => n.Producers).Count()} producers.");
+        // Update the pressure in each netwok.
+        this.UpdatePressureLevels();
     }
 
-    private void Controller_Opened(OxygenController controller)
+    private void UpdatePressureLevels()
     {
-        throw new NotImplementedException();
-    }
-
-    private void Controller_Closed(OxygenController controller)
-    {
-        var network = this._networks.FirstOrDefault(n => n.Contains(controller));
-        if (network != null)
+        foreach (var network in this._networks)
         {
-
+            network.UpdatePressureLevels();
         }
-
-        if (!this._networks.Any(n => n.Contains(controller)))
-        {
-            controller.Closed -= this.Controller_Closed;
-        }
-    }
-
-    private void Consumer_VolumeChanged(OxygenConsumer consumer)
-    {
-        throw new NotImplementedException();
     }
 
     private class PressureGraph
@@ -120,33 +150,59 @@ public class PressureManager : MonoBehaviour
         {
             this._owner = owner;
             this.BuildGraph(initialProducer);
+            this.BindEvents();
         }
 
-        public void Merge(PressureGraph other, OxygenController oxygenController)
+        public bool Contains(OxygenConsumer consumer)
         {
-            throw new NotImplementedException();
+            return this._owner._consumersToControllers[consumer]
+                .Any(c => this._relationships.ContainsKey(c));
         }
 
-        public PressureGraph Split(OxygenController oxygenController)
+        public void UpdatePressureLevels()
         {
-            throw new NotImplementedException();
+            var consumers = this.Consumers.ToArray();
+            if (consumers.Any())
+            {
+                var totalPressure = this._producers.Sum(p => p.CurrentPressure);
+                var individualPressure = totalPressure / consumers.Length;
+
+                foreach (var consumer in consumers)
+                {
+                    consumer.CurrentPressure = individualPressure;
+                }
+            }
         }
 
-        public bool Contains(OxygenController controller)
+        public void UnbindEvents()
         {
-            return this._relationships.ContainsKey(controller);
+            foreach (var consumer in this.Consumers)
+            {
+                consumer.VolumeChanged -= this._owner.Consumer_VolumeChanged;
+            }
+
+            foreach (var controller in this.Controllers)
+            {
+                controller.Closed -= this._owner.Controller_StateChanged;
+            }
         }
 
-        public bool Contains(OxygenProducer producer)
+        private void BindEvents()
         {
-            return this._producers.Contains(producer);
+            foreach (var consumer in this.Consumers)
+            {
+                consumer.VolumeChanged += this._owner.Consumer_VolumeChanged;
+            }
+
+            foreach (var controller in this.Controllers)
+            {
+                controller.Closed += this._owner.Controller_StateChanged;
+            }
         }
 
         private void BuildGraph(OxygenProducer initialProducer)
         {
             var producers = new Queue<OxygenProducer>(new[] { initialProducer });
-            var mappedControllers = new HashSet<OxygenController>();
-
             while (producers.Count > 0)
             {
                 var producer = producers.Dequeue();
@@ -183,11 +239,7 @@ public class PressureManager : MonoBehaviour
                         {
                             returnValue = returnValue.Union(this.MapController(controller));
                         }
-
-                        consumer.VolumeChanged += this._owner.Consumer_VolumeChanged;
                     }
-
-                    oxygenController.Closed += this._owner.Controller_Closed;
                 }
             }
 

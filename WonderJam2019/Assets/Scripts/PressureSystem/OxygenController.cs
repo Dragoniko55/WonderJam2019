@@ -4,11 +4,35 @@ using UnityEngine;
 
 public class OxygenController : MonoBehaviour
 {
-    [SerializeField] OxygenConsumer[] _oxygenConsumers;
+    [SerializeField]
+    private OxygenConsumer[] _oxygenConsumers;
+
+    [SerializeField]
+    private bool _isOpened;
 
     public event Action<OxygenController> Opened;
     public event Action<OxygenController> Closed;
 
-    public bool IsOpened { get; set; }
+    public bool IsOpened
+    {
+        get => this._isOpened;
+        set
+        {
+            if (value != this._isOpened)
+            {
+                this._isOpened = value;
+
+                if (this._isOpened)
+                {
+                    this.Opened(this);
+                }
+                else
+                {
+                    this.Closed(this);
+                }
+            }
+        }
+    }
+
     public IEnumerable<OxygenConsumer> OxygenConsumers => this._oxygenConsumers;
 }
