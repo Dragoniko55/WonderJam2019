@@ -67,7 +67,7 @@ public class PlayerScript : MonoBehaviour
     {
         //cought
         yield return new WaitForSeconds(5f);
-        if (!CurrentRoom.IsPressurised())
+        if (!(CurrentRoom ?? previousRoom).IsPressurised())
         {
 
             SceneManager.LoadScene(3);
