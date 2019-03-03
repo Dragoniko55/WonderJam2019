@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class load : MonoBehaviour
 {
-    public OxygenController oxygenController;
-
     private void Awake()
     {
         Singleton<PressureManager>.EnsureCreated();
@@ -15,12 +13,5 @@ public class load : MonoBehaviour
     void Start()
     {
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown("space"))
-            oxygenController.IsOpened = !oxygenController.IsOpened;
     }
 }
