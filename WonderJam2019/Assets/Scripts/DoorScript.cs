@@ -44,11 +44,13 @@ public class DoorScript : MonoBehaviour
         {
             Debug.Log("Door Oppening");
             animOpenDoor.Play("porteinteract");
+            GameObject.FindGameObjectWithTag("HUD").GetComponentInChildren<HudController>().setTextInfo("Ouverture sécurisée", false);
             //StartCoroutine(openandclose());
         } 
         else
         {
             Debug.Log("WARNING PRESSURE TOO LOW");
+            GameObject.FindGameObjectWithTag("HUD").GetComponentInChildren<HudController>().setTextInfo("Pression de la salle suivante trop basse, bloquage de cette porte pour votre sécurité", false);
         }            
     }
 }
