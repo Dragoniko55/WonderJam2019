@@ -27,6 +27,7 @@ public class ComsScript : MonoBehaviour
         else
         {
             Debug.Log("WARNING COMSCONSOLE BROKEN CHANGE CIRCUIT");
+            GameObject.FindGameObjectWithTag("HUD").GetComponentInChildren<HudController>().setTextInfo("Veuillez insérer la clé physique (se trouve actuellement près d'une brêche)", false);
         }
     }
 
