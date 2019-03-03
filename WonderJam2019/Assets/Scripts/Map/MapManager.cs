@@ -155,4 +155,9 @@ public class MapManager : MonoBehaviour
             Time.timeScale = !this.rootMap.gameObject.activeSelf ? 1 : 0;
         }
     }
+
+    private void OnDestroy()
+    {
+        this.rigidbodyFirstPersonController.mouseLook.SetCursorLock(false);
+    }
 }
