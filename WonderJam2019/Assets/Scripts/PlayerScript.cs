@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerScript : MonoBehaviour
@@ -55,7 +56,7 @@ public class PlayerScript : MonoBehaviour
 
         if(oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {
-            // TODO: Load GameOver Screen
+            SceneManager.LoadScene(4);
         }
     }
 }
