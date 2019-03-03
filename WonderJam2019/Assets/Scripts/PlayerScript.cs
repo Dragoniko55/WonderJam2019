@@ -7,9 +7,11 @@ public class PlayerScript : MonoBehaviour
 {
     public float PressureTolerance = 1000f;
     public float MaxDisplayPressure = 5000f;
+    public TMPro.TextMeshProUGUI RoomText;
 
     private HudController hudController;
-    private RoomScript currentRoom;
+    private RoomScript currentRoom;    
+
     public RoomScript CurrentRoom
     {
         get => this.currentRoom;
@@ -17,12 +19,15 @@ public class PlayerScript : MonoBehaviour
         {
             if (value != this.currentRoom)
             {
+                this.RoomText.text = "SAS";
+                this.currentRoom = value;
+
                 if (this.currentRoom != null)
                 {
+                    this.RoomText.text = "Pièce " + value.RoomName;
                     this.currentRoom.OxygenConsumer.PressureChanged -= OxygenConsumer_PressureChanged;
                 }
-
-                this.currentRoom = value;
+                
                 this.currentRoom.OxygenConsumer.PressureChanged += OxygenConsumer_PressureChanged;
             }
         }
