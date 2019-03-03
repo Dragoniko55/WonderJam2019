@@ -12,6 +12,7 @@ public class DoorScript : MonoBehaviour
 
     public Animator animOpenDoor;
 
+
     float smoothFactor = 2f;
     Vector3 velocity = Vector3.zero;
 
@@ -33,6 +34,7 @@ public class DoorScript : MonoBehaviour
         {
             Interact();
         }
+        Interact();
     }
     
     public void Interact()
