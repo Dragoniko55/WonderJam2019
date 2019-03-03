@@ -34,6 +34,7 @@ public class MapGenerator : MapObject, IPointerClickHandler
         // Get map valves
         this.mapValves = this.oxygenProducer.OxygenControllers
             .Select(v => v.GetComponent<ValveScript>().mapValve)
+            .Where(mv => mv != null)
             .ToArray();
     }
 
