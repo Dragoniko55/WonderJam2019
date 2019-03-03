@@ -36,7 +36,7 @@ public class DoorScript : MonoBehaviour
     //    }
     //    Interact();
     //}
-    
+	
     public void Interact()
     {
         bool CanOpen = room.IsPressurised();
