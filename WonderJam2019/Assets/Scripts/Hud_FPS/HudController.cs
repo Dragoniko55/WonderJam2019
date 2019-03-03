@@ -81,7 +81,7 @@ public class HudController : MonoBehaviour
             StopCoroutine("makeTextBlink");
             textInfoAlarm.Stop();
             infoTextBlinking = false;
-            textInfo.color = new Color(0, 0, 0);
+            textInfo.color = new Color(255, 255, 255);
             StopCoroutine("waitAndDeleteTextInfo");
             StartCoroutine("waitAndDeleteTextInfo");
             Debug.Log("Debug setter");
@@ -94,7 +94,7 @@ public class HudController : MonoBehaviour
         {
             textInfo.color = new Color(255, 0, 0);
             yield return new WaitForSeconds(.1f);
-            textInfo.color = new Color(0, 0, 0);
+            textInfo.color = new Color(255, 255, 255);
             yield return new WaitForSeconds(.1f);
         }
     }

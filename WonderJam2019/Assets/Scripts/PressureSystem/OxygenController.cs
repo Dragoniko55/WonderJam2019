@@ -53,10 +53,12 @@ public class OxygenController : MonoBehaviour
         if (!this.IsOpened)
         {
             this._animator.Play("valveClose");
+            GameObject.FindGameObjectWithTag("HUD").GetComponentInChildren<HudController>().setTextInfo("Fermeture de la valve", false);
         }
         else
         {
             this._animator.Play("valveOpen");
+            GameObject.FindGameObjectWithTag("HUD").GetComponentInChildren<HudController>().setTextInfo("Ouverture de la valve", false);
         }
         audioValve.PlayOneShot(valveSound);
     }
