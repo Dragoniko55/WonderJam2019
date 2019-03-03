@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(OxygenConsumer))]
 public class RoomScript : MonoBehaviour
 {
     [SerializeField] private string roomName;
     [SerializeField] private long requiredPressure = 1000;
     [SerializeField] private float currentPressure;
-    [SerializeField] private OxygenConsumer oxygenConsumer;
+    private OxygenConsumer oxygenConsumer;
 
     public event System.Action OnRoomChange;
 

@@ -12,6 +12,7 @@ public class DoorScript : MonoBehaviour
 
     public Animator animOpenDoor;
 
+
     float smoothFactor = 2f;
     Vector3 velocity = Vector3.zero;
 
@@ -29,28 +30,25 @@ public class DoorScript : MonoBehaviour
 
     //void Update()
     //{
-    //    if(isopening)
+    //    if(Input.GetMouseButtonDown(0))
     //    {
-    //        transform.position = Vector3.SmoothDamp(transform.position, targetposs, ref velocity, smoothFactor);
+    //        Interact();
     //    }
+    //    Interact();
+    //}
+    
+    //public void Interact()
+    //{
+    //    bool CanOpen = room.IsPressurised();
+    //    if (CanOpen)
+    //    {
+    //        Debug.Log("Door Oppening");
+    //        animOpenDoor.Play("porteinteract");
+    //        //StartCoroutine(openandclose());
+    //    } 
     //    else
     //    {
-    //        transform.position = Vector3.SmoothDamp(transform.position, initposs, ref velocity, smoothFactor);
-    //    }
-    
-    public void Interact()
-    {
-        bool CanOpen = room.IsPressurised();
-
-        if (CanOpen)
-        {
-            Debug.Log("Door Oppening");
-            animOpenDoor.Play("porteinteract");
-            //StartCoroutine(openandclose());
-        } 
-        else
-        {
-            Debug.Log("WARNING PRESSURE TOO LOW");
-        }            
-    }
+    //        Debug.Log("WARNING PRESSURE TOO LOW");
+    //    }            
+    //}
 }

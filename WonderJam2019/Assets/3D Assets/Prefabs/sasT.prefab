@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 4468742900432425811}
   - component: {fileID: 7200908013364443053}
   - component: {fileID: 4255172716636106099}
+  - component: {fileID: 8927788246649361213}
   m_Layer: 0
   m_Name: Box012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4468742900432425811
 Transform:
@@ -77,6 +78,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8927788246649361213
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945216391550951463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 4.900001, z: 0.20000005}
+  m_Center: {x: 0, y: 0, z: 0.099999726}
 --- !u!1 &6851774343319285051
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,12 +102,13 @@ GameObject:
   - component: {fileID: 5944744512198967856}
   - component: {fileID: 5641717104407813271}
   - component: {fileID: 1614075075044268868}
+  - component: {fileID: 3437422396049826343}
   m_Layer: 0
   m_Name: Tube011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5944744512198967856
 Transform:
@@ -154,6 +169,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3437422396049826343
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851774343319285051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: ffecab6113b8a5b4fb91edbdf493d30f, type: 3}
 --- !u!1 &7575930791695185036
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +197,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &612294952003938623
 Transform:
@@ -198,12 +227,13 @@ GameObject:
   - component: {fileID: 6303808195304694606}
   - component: {fileID: 8107342108764607324}
   - component: {fileID: 795978028528757936}
+  - component: {fileID: 253778003195971160}
   m_Layer: 0
   m_Name: Box013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6303808195304694606
 Transform:
@@ -264,3 +294,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &253778003195971160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7809569715540380921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9000004, y: 2.0000005, z: 0.20000005}
+  m_Center: {x: -0.00000023841858, y: -0.00000011920929, z: 0.099999726}

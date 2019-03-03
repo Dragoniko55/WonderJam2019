@@ -7627,6 +7627,50 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1165027474}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1555011938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1555011940}
+  - component: {fileID: 1555011939}
+  m_Layer: 0
+  m_Name: PlayerDetection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1555011939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555011938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1555011940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555011938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.740017, y: -25.452791, z: 33.66622}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1574714501
 GameObject:
   m_ObjectHideFlags: 0
@@ -8032,6 +8076,11 @@ PrefabInstance:
       propertyPath: m_text
       value: C
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
     - target: {fileID: 3303152701561669169, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_CullTransparentMesh
@@ -8042,11 +8091,6 @@ PrefabInstance:
       propertyPath: m_EffectDistance.y
       value: -5
       objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46022a4b9bb8ab64bb4a9c494fc291a2, type: 3}
 --- !u!1001 &1623335519
@@ -8217,7 +8261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 1340.6729}
+  m_AnchoredPosition: {x: -621.875, y: 1202.5}
   m_SizeDelta: {x: 1400, y: 1600}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &1696234400 stripped
