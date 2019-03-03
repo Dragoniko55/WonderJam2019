@@ -41,6 +41,8 @@ public class MapManager : MonoBehaviour
     private RectTransform rootMap;
     private UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController rigidbodyFirstPersonController;
 
+    public bool IsActive => this.rootMap.gameObject.activeSelf;
+
     private void Start()
     {
         this.descriptionPane = FindObjectsOfType<RectTransform>().FirstOrDefault(o => o.name == DescriptionPaneName);
@@ -112,18 +114,15 @@ public class MapManager : MonoBehaviour
         this.selectedMapObject = mapObject;
     }
 
-    private void FixedUpdate()
-    {
-        if (this.showDescription)
-        {
-            this.descriptionPane.transform.position = (Vector2)Input.mousePosition - (this.descriptionPane.sizeDelta);
-        }
-    }
-
     private void Update()
     {
-        if (this.rootMap.gameObject.activeSelf)
+        if (this.IsActive)
         {
+            if (this.showDescription)
+            {
+                this.descriptionPane.transform.position = (Vector2)Input.mousePosition - (this.descriptionPane.sizeDelta);
+            }
+
             float factor = 0.25f;
             if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Equals))
             {
@@ -145,14 +144,14 @@ public class MapManager : MonoBehaviour
 
             else if(Input.GetKeyDown(KeyCode.H))
             {
-                this.legendPane.gameObject.SetActive(!this.legendPane.gameObject.activeSelf);
+                this.legendPane.gameObject.SetActive(!this.IsActive);
             }    
         }
 
         if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Tab))
         {
             this.rootMap.gameObject.SetActive(!this.rootMap.gameObject.activeSelf);
-            this.rigidbodyFirstPersonController.mouseLook.SetCursorLock(!this.rootMap.gameObject.activeSelf);
+            this.rigidbodyFirstPersonController.mouseLook.SetCursorLock(!this.IsActive);
             Time.timeScale = !this.rootMap.gameObject.activeSelf ? 1 : 0;
         }
     }

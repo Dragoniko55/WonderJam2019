@@ -23,6 +23,7 @@ public class MapRoom : MapObject
                 this.mapValves = Singleton<PressureManager>.Instance
                     .GetLinkedControllers(this.roomScript.OxygenConsumer)
                     .Select(v => v.GetComponent<ValveScript>().mapValve)
+                    .Where(mv => mv != null)
                     .ToArray();
             }
             return this.mapValves;

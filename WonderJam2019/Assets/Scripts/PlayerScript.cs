@@ -7,9 +7,13 @@ public class PlayerScript : MonoBehaviour
 {
     public float PressureTolerance = 1000f;
     public float MaxDisplayPressure = 5000f;
+    public TMPro.TextMeshProUGUI RoomText;
 
     private HudController hudController;
-    private RoomScript currentRoom;
+
+    private RoomScript previousRoom;
+    private RoomScript currentRoom;    
+
     public RoomScript CurrentRoom
     {
         get => this.currentRoom;
@@ -17,13 +21,25 @@ public class PlayerScript : MonoBehaviour
         {
             if (value != this.currentRoom)
             {
-                if (this.currentRoom != null)
+                this.RoomText.text = "SAS";
+
+                if (this.previousRoom != null && value != this.previousRoom)
                 {
-                    this.currentRoom.OxygenConsumer.PressureChanged -= OxygenConsumer_PressureChanged;
+                    this.previousRoom.OxygenConsumer.PressureChanged -= OxygenConsumer_PressureChanged;
                 }
 
+                if (this.currentRoom == null && this.previousRoom != value)
+                {
+                    value.OxygenConsumer.PressureChanged += OxygenConsumer_PressureChanged;
+                }
+
+                this.previousRoom = this.currentRoom;
                 this.currentRoom = value;
-                this.currentRoom.OxygenConsumer.PressureChanged += OxygenConsumer_PressureChanged;
+
+                if (this.currentRoom != null)
+                {
+                    this.RoomText.text = "Pièce " + value.RoomName;
+                }
             }
         }
     }
@@ -35,7 +51,7 @@ public class PlayerScript : MonoBehaviour
 
     private void OxygenConsumer_PressureChanged(OxygenConsumer oxygenConsumer)
     {
-        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure / this.MaxDisplayPressure) - this.PressureTolerance / this.MaxDisplayPressure);
+        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure  - this.PressureTolerance) / this.MaxDisplayPressure);
 
         if(oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {

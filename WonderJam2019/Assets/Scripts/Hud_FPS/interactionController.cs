@@ -22,23 +22,26 @@ public class interactionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
-        if(Physics.Raycast(mainCamera.transform.position, mainCamera.transform.TransformDirection(Vector3.forward), out hit, interactionDist, layerMask))
+        if (!Singleton<MapManager>.Instance.IsActive)
         {
-            if(Input.GetMouseButtonDown(0))
+            RaycastHit hit;
+            if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.TransformDirection(Vector3.forward), out hit, interactionDist, layerMask))
             {
-                Debug.Log("CLIC");
-                hit.collider.SendMessageUpwards("Interact");
-            }
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Debug.Log("CLIC");
+                    hit.collider.SendMessageUpwards("Interact");
+                }
 
-            Debug.DrawRay(mainCamera.transform.position, mainCamera.transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
-            crosshairs.color = crosshairsOver;
-            interactText.enabled = true;
-        }
-        else
-        {
-            crosshairs.color = crosshairsOut;
-            interactText.enabled = false;
+                Debug.DrawRay(mainCamera.transform.position, mainCamera.transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
+                crosshairs.color = crosshairsOver;
+                interactText.enabled = true;
+            }
+            else
+            {
+                crosshairs.color = crosshairsOut;
+                interactText.enabled = false;
+            }
         }
         
     }
