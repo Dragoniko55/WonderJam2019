@@ -2878,8 +2878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 109.4, y: -26.9}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 75, y: -26.9}
+  m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218206230
 MonoBehaviour:
@@ -2936,7 +2936,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 258
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3156,6 +3156,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6437345457804567506, guid: e79ff880ada88504eb4957028ddc8471,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.508
+      objectReference: {fileID: 0}
     - target: {fileID: 2536606720651701619, guid: e79ff880ada88504eb4957028ddc8471,
         type: 3}
       propertyPath: m_Name
@@ -3181,11 +3186,6 @@ PrefabInstance:
       propertyPath: mapValve
       value: 
       objectReference: {fileID: 15353364}
-    - target: {fileID: 6437345457804567506, guid: e79ff880ada88504eb4957028ddc8471,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.508
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79ff880ada88504eb4957028ddc8471, type: 3}
 --- !u!4 &228286185 stripped
@@ -4256,15 +4256,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: G
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: G
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -5383,15 +5383,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: P
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: P
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -5938,15 +5938,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: C
-      objectReference: {fileID: 0}
     - target: {fileID: 2178500777664436483, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: C
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -6311,15 +6311,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: O
-      objectReference: {fileID: 0}
     - target: {fileID: 522099465475525955, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: O
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -7468,11 +7468,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: E
-      objectReference: {fileID: 0}
     - target: {fileID: 2178500777664436483, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -7487,6 +7482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: E
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -7514,6 +7514,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a50c461e37f5ceb48b87e8152fbe5c99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &543758146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543758141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f8f3f5eff494d419679e0ace6c90c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _secondsPerIncrement: 0.2
+  _volumeIncreasePerIncrement: 100
 --- !u!1001 &544246974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8474,11 +8488,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: S
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -8498,6 +8507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: S
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -9362,15 +9376,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: Q
-      objectReference: {fileID: 0}
     - target: {fileID: 522099465475525955, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: Q
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -10027,6 +10041,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveEF
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10131,11 +10150,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveEF
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -10883,11 +10897,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1061655998510506729, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: roomName
-      value: J
-      objectReference: {fileID: 0}
     - target: {fileID: 390473307319033635, guid: 157cc3d51db24ae4d9d44511884643d6,
         type: 3}
       propertyPath: m_IsActive
@@ -10897,6 +10906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1061655998510506729, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: roomName
+      value: J
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 157cc3d51db24ae4d9d44511884643d6, type: 3}
@@ -11034,6 +11048,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveAF
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11138,11 +11157,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveAF
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -12517,15 +12531,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: B
-      objectReference: {fileID: 0}
     - target: {fileID: 2178500777664436483, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: B
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -12797,11 +12811,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: R
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -12811,6 +12820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: R
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -13240,6 +13254,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 4013076687790140803, guid: 4db384be6035fc3408210ecd2bdfbd9a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6115109125638361173, guid: 4db384be6035fc3408210ecd2bdfbd9a,
         type: 3}
       propertyPath: _oxygenControllers.Array.size
@@ -13250,11 +13269,6 @@ PrefabInstance:
       propertyPath: _oxygenControllers.Array.data[0]
       value: 
       objectReference: {fileID: 51087779}
-    - target: {fileID: 4013076687790140803, guid: 4db384be6035fc3408210ecd2bdfbd9a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4db384be6035fc3408210ecd2bdfbd9a, type: 3}
 --- !u!4 &1086043292 stripped
@@ -13495,6 +13509,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 4013076687790140803, guid: 4db384be6035fc3408210ecd2bdfbd9a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6115109125638361173, guid: 4db384be6035fc3408210ecd2bdfbd9a,
         type: 3}
       propertyPath: _oxygenControllers.Array.size
@@ -13505,11 +13524,6 @@ PrefabInstance:
       propertyPath: _oxygenControllers.Array.data[0]
       value: 
       objectReference: {fileID: 43664967}
-    - target: {fileID: 4013076687790140803, guid: 4db384be6035fc3408210ecd2bdfbd9a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4db384be6035fc3408210ecd2bdfbd9a, type: 3}
 --- !u!4 &1097753157 stripped
@@ -15191,15 +15205,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: U
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: U
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -15616,6 +15630,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2151043452099366364, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: roomName
@@ -15625,11 +15644,6 @@ PrefabInstance:
         type: 3}
       propertyPath: _volume
       value: 7000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2151043452099366364, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -16121,15 +16135,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: A
-      objectReference: {fileID: 0}
     - target: {fileID: 2178500777664436483, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: A
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -17682,15 +17696,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: X
-      objectReference: {fileID: 0}
     - target: {fileID: 522099465475525955, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: X
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -20181,15 +20195,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: W
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: W
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -20412,11 +20426,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: Y
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -20426,6 +20435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: Y
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -20540,15 +20554,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: H
-      objectReference: {fileID: 0}
     - target: {fileID: 522099465475525955, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: H
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -20753,11 +20767,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: V
-      objectReference: {fileID: 0}
     - target: {fileID: 522099465475525955, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -20767,6 +20776,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: V
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -20972,15 +20986,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: D
-      objectReference: {fileID: 0}
     - target: {fileID: 2178500777664436483, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: D
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -22718,11 +22732,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: F
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -22732,6 +22741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: F
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -23608,15 +23622,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: M
-      objectReference: {fileID: 0}
     - target: {fileID: 522099465475525955, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: M
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -25913,11 +25927,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: T
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -25927,6 +25936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: T
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -26637,11 +26651,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: K
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
@@ -26661,6 +26670,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: K
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -27936,15 +27950,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
-        type: 3}
-      propertyPath: roomName
-      value: N
-      objectReference: {fileID: 0}
     - target: {fileID: 7031282613414815935, guid: 9d9ff6b9592ab164cb21f81aef72c960,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410185400127789651, guid: 9d9ff6b9592ab164cb21f81aef72c960,
+        type: 3}
+      propertyPath: roomName
+      value: N
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9ff6b9592ab164cb21f81aef72c960, type: 3}
@@ -28004,12 +28018,12 @@ RectTransform:
   m_Children:
   - {fileID: 218206229}
   m_Father: {fileID: 7212518440447956555}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 161.67, y: -30.9}
-  m_SizeDelta: {x: 311.76, y: 45.160004}
+  m_AnchoredPosition: {x: 85, y: -30.9}
+  m_SizeDelta: {x: 150, y: 45.160004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106876029
 MonoBehaviour:
@@ -29080,6 +29094,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveWZ
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29184,11 +29203,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveWZ
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -29307,6 +29321,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveRW
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29411,11 +29430,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveRW
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -29584,6 +29598,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveHL
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29689,11 +29708,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveHL
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -29714,6 +29728,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveGK
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29818,11 +29837,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveGK
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -30131,6 +30145,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveMN
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30236,11 +30255,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveMN
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -30261,6 +30275,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveOP
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30366,11 +30385,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveOP
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -30391,6 +30405,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveTX
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30496,11 +30515,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveTX
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -30521,6 +30535,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveCH
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30626,11 +30645,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveCH
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -30735,6 +30749,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveFG
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30840,11 +30859,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveFG
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -30865,6 +30879,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveMQ
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30970,11 +30989,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveMQ
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -30995,6 +31009,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveNR
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31099,11 +31118,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveNR
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -31255,6 +31269,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveJS
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31360,11 +31379,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveJS
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -31385,6 +31399,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveUY
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31490,11 +31509,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveUY
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -31515,6 +31529,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveDI
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31620,11 +31639,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveDI
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -31682,6 +31696,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveKL
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31787,11 +31806,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveKL
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -31831,6 +31845,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveHI
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31935,11 +31954,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveHI
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -32253,6 +32267,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveTU
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32358,11 +32377,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveTU
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -32405,6 +32419,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveVW
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32510,11 +32529,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveVW
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -32551,6 +32565,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValvePU
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32656,11 +32675,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValvePU
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -32681,6 +32695,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveRS
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32785,11 +32804,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveRS
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -32951,6 +32965,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveLO
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33056,11 +33075,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveLO
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -33081,6 +33095,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveQR
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33186,11 +33205,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveQR
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -33211,6 +33225,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveBG
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33315,11 +33334,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveBG
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -33471,6 +33485,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveXY
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33576,11 +33595,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveXY
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -33601,6 +33615,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveLS
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33706,11 +33725,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveLS
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -33757,6 +33771,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveGJ
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33862,11 +33881,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveGJ
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -33887,6 +33901,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveHK
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33992,11 +34011,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveHK
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -34043,7 +34057,7 @@ RectTransform:
   - {fileID: 6080973061615880124}
   - {fileID: 6080973060351899416}
   m_Father: {fileID: 7212518440447956555}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -34556,7 +34570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -728.125, y: 845.3334}
+  m_AnchoredPosition: {x: -956.875, y: 845.3334}
   m_SizeDelta: {x: 1400, y: 1600}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &6080973060351899416
@@ -36421,6 +36435,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveXZ
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36526,11 +36545,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveXZ
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -36551,6 +36565,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveQV
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36655,11 +36674,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveQV
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -36777,6 +36791,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveST
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36881,11 +36900,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveST
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -37360,7 +37374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sliderOxygen: {fileID: 7212518440442483715}
   textInfo: {fileID: 1764250409107758256}
-  barreSlider: {fileID: 7936195021054879143}
+  barreSlider: {fileID: 7212518440254998015}
   sliderGradient:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 1}
@@ -37408,8 +37422,8 @@ RectTransform:
   - {fileID: 1080873898898459631}
   - {fileID: 3630605857963018709}
   - {fileID: 367409629871888398}
-  - {fileID: 6080973059713477195}
   - {fileID: 2106876028}
+  - {fileID: 6080973059713477195}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37618,6 +37632,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveJM
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37722,11 +37741,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveJM
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -37919,6 +37933,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveOT
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38024,11 +38043,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveOT
-      objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: DefaultOutlineColor.a
@@ -38123,6 +38137,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6080973060161666139}
     m_Modifications:
+    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: m_Name
+      value: ValveJK
+      objectReference: {fileID: 0}
     - target: {fileID: 2461301903684403174, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38227,11 +38246,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2682488471037909396, guid: 9324ab94e69b75a498ab745e50ca0339,
-        type: 3}
-      propertyPath: m_Name
-      value: ValveJK
       objectReference: {fileID: 0}
     - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
