@@ -6,6 +6,9 @@ using UnityEngine;
 public class OxygenProducer : MonoBehaviour
 {
     [SerializeField]
+    private AudioSource soundSource;
+
+    [SerializeField]
     private OxygenController[] _oxygenControllers;
 
     [SerializeField]
@@ -52,6 +55,7 @@ public class OxygenProducer : MonoBehaviour
     {
         DestroyImmediate(this.GetComponentInChildren<SphereCollider>());
         this.IsActive = true;
+        soundSource.Play();
         this.GetComponentsInChildren<MeshRenderer>().First(c => c.name == "Button").material = this.ActivatedMaterial;
     }
-}
+}       
