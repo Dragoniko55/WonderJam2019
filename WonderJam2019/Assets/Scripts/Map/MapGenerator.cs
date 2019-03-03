@@ -55,12 +55,12 @@ public class MapGenerator : MapObject, IPointerClickHandler
     {
         var sb = new System.Text.StringBuilder();
         sb.Append("<size=200%><b>");
-        sb.Append("A Generator");
+        sb.Append("Un Générateur");
         sb.Append("</b><size=100%>");
         sb.Append(System.Environment.NewLine);
         sb.Append("=====================");
         sb.Append(System.Environment.NewLine);
-        sb.Append("Status: " + (this.oxygenProducer.IsActive ? "On" : "Off"));
+        sb.Append("Etat: " + (this.oxygenProducer.IsActive ? "On" : "Off"));
         this.objectDescription = sb.ToString();
     }
 

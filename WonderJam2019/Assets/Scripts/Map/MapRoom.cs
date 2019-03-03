@@ -94,20 +94,20 @@ public class MapRoom : MapObject
 
     protected override void GenerateDescription()
     {
-        var sb = new System.Text.StringBuilder("<size=200%><b>Room ");
+        var sb = new System.Text.StringBuilder("<size=200%><b>Pièce ");
         sb.Append(this.roomScript.RoomName);
         sb.Append("</b><size=100%>");
         sb.Append(System.Environment.NewLine);
-        sb.Append("Network ID: ");
+        sb.Append("ID Réseau: ");
         sb.Append(Singleton<PressureManager>.Instance.GetNetworkIndex(this.roomScript.OxygenConsumer).ToString());
         sb.Append(System.Environment.NewLine);
-        sb.Append("Room pressure: ");
+        sb.Append("Pression de la salle: ");
         sb.Append(this.roomScript.CurrentPressure);
-        sb.Append(" units");
+        sb.Append(" unités");
         sb.Append(System.Environment.NewLine);
-        sb.Append("Room volume: ");
+        sb.Append("Volume de la salle: ");
         sb.Append(this.roomScript.OxygenConsumer.Volume);
-        sb.Append(" units");
+        sb.Append(" unités");
         this.objectDescription = sb.ToString();
     }
 

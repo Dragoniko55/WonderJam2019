@@ -26,6 +26,6 @@ public class MapDoor : MapObject
 
     protected override void GenerateDescription()
     {
-        this.objectDescription = "A common door.";
+        this.objectDescription = "Une porte commune.";
     }
 }
