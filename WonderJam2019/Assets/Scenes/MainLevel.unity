@@ -24764,6 +24764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RigidBodyFPSController
       objectReference: {fileID: 0}
+    - target: {fileID: 1633503652684821775, guid: 207a082f9d997e24abb7aa510e0a8f7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1633503652684821771, guid: 207a082f9d997e24abb7aa510e0a8f7d,
         type: 3}
       propertyPath: m_LocalPosition.x
