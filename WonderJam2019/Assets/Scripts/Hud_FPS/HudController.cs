@@ -15,6 +15,7 @@ public class HudController : MonoBehaviour
     public AudioSource oxygenLevelAlarm;
     public int nonImportantTextDuration;
 
+    private bool textAlarm;
     private bool infoTextBlinking;
 
     // TESTS & DEBUG
@@ -54,26 +55,36 @@ public class HudController : MonoBehaviour
         if (newOxygenValue < 0.0f) { newOxygenValue = 0.0f; }
         else if (newOxygenValue > 1.0f) { newOxygenValue = 1.0f; }
         sliderOxygen.value = newOxygenValue;
-        if (sliderOxygen.value < lowOxygenLevel) { oxygenLevelAlarm.Play(); }
-        else { oxygenLevelAlarm.Stop(); }
+        if (sliderOxygen.value < lowOxygenLevel)
+        {
+            oxygenLevelAlarm.Play();
+            setTextInfo("Pression globale trop basse", true);
+        }
+        else
+        {
+            oxygenLevelAlarm.Stop();
+            setTextInfo("", false);
+        }
     }
 
-    public void setTextInfo(string newText = "", bool textBlink = false)
+    public void setTextInfo(string newText = "", bool textBlink = false, bool playAlarm = false)
     {
         textInfo.text = newText;
         if (textBlink && !infoTextBlinking)
         {
             StartCoroutine("makeTextBlink");
             infoTextBlinking = true;
-            textInfoAlarm.Play();
+            if (playAlarm) { textInfoAlarm.Play(); }
         }
-        else if (!textBlink && infoTextBlinking)
+        else if (!textBlink)
         {
             StopCoroutine("makeTextBlink");
             textInfoAlarm.Stop();
             infoTextBlinking = false;
-            textInfo.color = new Color(0, 0, 0);
+            textInfo.color = new Color(255, 255, 255);
+            StopCoroutine("waitAndDeleteTextInfo");
             StartCoroutine("waitAndDeleteTextInfo");
+            Debug.Log("Debug setter");
         }
     }
 
@@ -83,13 +94,14 @@ public class HudController : MonoBehaviour
         {
             textInfo.color = new Color(255, 0, 0);
             yield return new WaitForSeconds(.1f);
-            textInfo.color = new Color(0, 0, 0);
+            textInfo.color = new Color(255, 255, 255);
             yield return new WaitForSeconds(.1f);
         }
     }
 
     IEnumerator waitAndDeleteTextInfo()
     {
+        Debug.Log("Debug coroutine");
         yield return new WaitForSeconds(nonImportantTextDuration);
         if (!infoTextBlinking)
         {
