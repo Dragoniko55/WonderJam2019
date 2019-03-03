@@ -57,7 +57,7 @@ public class PlayerScript : MonoBehaviour
 
         if(oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
     }
 }

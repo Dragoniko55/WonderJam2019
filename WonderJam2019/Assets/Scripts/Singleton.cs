@@ -35,7 +35,7 @@ public class Singleton<TSingleton> : MonoBehaviour where TSingleton : Component
                     _instance = singleton.AddComponent<TSingleton>();
                     singleton.name = $"{typeof(TSingleton).Name} (Singleton)";
 
-                    DontDestroyOnLoad(singleton);
+                    //DontDestroyOnLoad(singleton);
                 }
             }
         }

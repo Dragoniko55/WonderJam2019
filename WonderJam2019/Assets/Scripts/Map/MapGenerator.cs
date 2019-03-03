@@ -32,10 +32,10 @@ public class MapGenerator : MapObject, IPointerClickHandler
         base.Start();
 
         // Get map valves
-        this.mapValves = this.oxygenProducer.OxygenControllers
-            .Select(v => v.GetComponent<ValveScript>().mapValve)
-            .Where(mv => mv != null)
-            .ToArray();
+        this.mapValves = this.oxygenProducer?.OxygenControllers
+            ?.Select(v => v.GetComponent<ValveScript>()?.mapValve)
+            ?.Where(mv => mv != null)
+            ?.ToArray();
     }
 
     public override void Render()

@@ -96,22 +96,31 @@ public class PressureManager : MonoBehaviour
 
         if (net != null)
         {
+            Debug.Log(consumer.name);
             net.UpdatePressureLevels();
         }
     }
 
     private void RebuildNetworks()
     {
+        var consumerSnapshot = this._networks.SelectMany(n => n.Consumers).ToArray();
+
         // Unbind events.
         foreach (var network in this._networks)
         {
             network.UnbindEvents();
-            network.ResetPressureLevels();
+            //network.ResetPressureLevels();
         }
 
         // Rebuild the network graphs.
         this._networks.Clear();
         this.BuildNetworks();
+
+        var newConsumers = new HashSet<OxygenConsumer>(this._networks.SelectMany(n => n.Consumers));
+        foreach (var consumer in consumerSnapshot.Where(c => !newConsumers.Contains(c)))
+        {
+            consumer.CurrentPressure = 0;
+        }
     }
 
     private void BuildNetworks()
@@ -174,8 +183,7 @@ public class PressureManager : MonoBehaviour
 
         public bool Contains(OxygenConsumer consumer)
         {
-            return this._owner._consumersToControllers[consumer]
-                .Any(c => this._relationships.ContainsKey(c));
+            return this._owner._consumersToControllers.TryGetValue(consumer, out var controllers) && controllers.Any(c => this._relationships.ContainsKey(c));
         }
 
         public void UpdatePressureLevels()
@@ -185,8 +193,6 @@ public class PressureManager : MonoBehaviour
             {
                 var totalPressure = this._producers.Sum(p => p.CurrentPressure);
                 var individualPressure = totalPressure * 1000 / consumers.Sum(c => c.Volume);
-
-                Debug.Log(individualPressure);
 
                 foreach (var consumer in consumers)
                 {
