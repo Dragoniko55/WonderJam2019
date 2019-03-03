@@ -39,6 +39,7 @@ public class PlayerScript : MonoBehaviour
                 if (this.currentRoom != null)
                 {
                     this.RoomText.text = "Pièce " + value.RoomName;
+                    this.OxygenConsumer_PressureChanged(this.currentRoom.OxygenConsumer);
                 }
             }
         }
