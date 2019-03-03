@@ -544,6 +544,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7660124939192791867}
+  - component: {fileID: 421304570785120507}
+  - component: {fileID: 5731470814653631286}
+  - component: {fileID: 6410185400127789651}
+  - component: {fileID: 7103497604909641726}
   m_Layer: 0
   m_Name: piece1
   m_TagString: Untagged
@@ -575,6 +579,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &421304570785120507
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952451452189760413}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5, y: 4.5, z: 3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5731470814653631286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952451452189760413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6d9171da56dd64694c8161e63a18d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6410185400127789651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952451452189760413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17c5208f4220a048a7c538ac14df87f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomName: 
+  requiredPressure: 1000
+  currentPressure: 0
+  oxygenConsumer: {fileID: 0}
+--- !u!114 &7103497604909641726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952451452189760413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50c461e37f5ceb48b87e8152fbe5c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _volume: 1000
 --- !u!1 &5810357965877833901
 GameObject:
   m_ObjectHideFlags: 0
