@@ -37,18 +37,18 @@ public class DoorScript : MonoBehaviour
     //    Interact();
     //}
     
-    //public void Interact()
-    //{
-    //    bool CanOpen = room.IsPressurised();
-    //    if (CanOpen)
-    //    {
-    //        Debug.Log("Door Oppening");
-    //        animOpenDoor.Play("porteinteract");
-    //        //StartCoroutine(openandclose());
-    //    } 
-    //    else
-    //    {
-    //        Debug.Log("WARNING PRESSURE TOO LOW");
-    //    }            
-    //}
+    public void Interact()
+    {
+        bool CanOpen = room.IsPressurised();
+        if (CanOpen)
+        {
+            Debug.Log("Door Oppening");
+            animOpenDoor.Play("porteinteract");
+            //StartCoroutine(openandclose());
+        } 
+        else
+        {
+            Debug.Log("WARNING PRESSURE TOO LOW");
+        }            
+    }
 }
