@@ -112,18 +112,15 @@ public class MapManager : MonoBehaviour
         this.selectedMapObject = mapObject;
     }
 
-    private void FixedUpdate()
-    {
-        if (this.showDescription)
-        {
-            this.descriptionPane.transform.position = (Vector2)Input.mousePosition - (this.descriptionPane.sizeDelta);
-        }
-    }
-
     private void Update()
     {
         if (this.rootMap.gameObject.activeSelf)
         {
+            if (this.showDescription)
+            {
+                this.descriptionPane.transform.position = (Vector2)Input.mousePosition - (this.descriptionPane.sizeDelta);
+            }
+
             float factor = 0.25f;
             if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Equals))
             {
