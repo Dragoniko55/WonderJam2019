@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HudController2 : MonoBehaviour
+public class HudController : MonoBehaviour
 {
     public Slider sliderOxygen; // Jauge representant le niveau oxygene
     public Text textInfo; // Texte affichant les informations importantes et utiles
