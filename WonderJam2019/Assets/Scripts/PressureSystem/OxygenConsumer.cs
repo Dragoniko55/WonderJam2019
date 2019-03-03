@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
+[RequireComponent(typeof(RoomScript))]
 public class OxygenConsumer : MonoBehaviour
 {
     [SerializeField]
@@ -18,7 +19,7 @@ public class OxygenConsumer : MonoBehaviour
             if (value != this._volume)
             {
                 this._volume = value;
-                this.VolumeChanged(this);
+                this.VolumeChanged?.Invoke(this);
             }
         }
     }
@@ -31,7 +32,7 @@ public class OxygenConsumer : MonoBehaviour
             if (value != this._currentPressure)
             {
                 this._currentPressure = value;
-                this.PressureChanged(this);
+                this.PressureChanged?.Invoke(this);
             }
         }
     }

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 114676026869560603}
   - component: {fileID: 6315693442568647559}
+  - component: {fileID: 3515304608133821792}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -44,7 +45,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5336308287a1ee947982545769b6f364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _oxygenConsumers: []
+  _oxygenConsumers:
+  - {fileID: 0}
+  - {fileID: 0}
+  _isOpened: 1
+--- !u!114 &3515304608133821792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458277286355079619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405d1404e0a8bf448aa9a280cb3a9f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapValve: {fileID: 0}
 --- !u!1 &6950504935140736657
 GameObject:
   m_ObjectHideFlags: 0
