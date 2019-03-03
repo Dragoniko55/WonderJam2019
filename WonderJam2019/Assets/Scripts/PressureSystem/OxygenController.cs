@@ -15,6 +15,9 @@ public class OxygenController : MonoBehaviour
     public event Action<OxygenController> Opened;
     public event Action<OxygenController> Closed;
 
+    public AudioClip valveSound;
+    public AudioSource audioValve;
+
     public bool IsOpened
     {
         get => this._isOpened;
@@ -55,5 +58,6 @@ public class OxygenController : MonoBehaviour
         {
             this._animator.Play("valveOpen");
         }
+        audioValve.PlayOneShot(valveSound);
     }
 }
