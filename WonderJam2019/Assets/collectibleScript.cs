@@ -23,6 +23,6 @@ public class collectibleScript : MonoBehaviour
     {
 
         this.GetComponent<BoxCollider>().enabled = false;
-        this.GetComponent<MeshRenderer>().enabled = false;
+        this.GetComponent<Transform>().position = new Vector3(0,1000,0);
     }
 }
