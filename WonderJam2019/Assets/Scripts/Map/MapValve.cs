@@ -67,22 +67,22 @@ public class MapValve : MapObject
     {
         var sb = new System.Text.StringBuilder();
         sb.Append("<size=200%><b>");
-        sb.Append("A Valve");
+        sb.Append("Une Valve");
         sb.Append("</b><size=100%>");
         sb.Append(System.Environment.NewLine);
-        sb.Append("Linked room(s):");
+        sb.Append("Salle(s) liée(s):");
 
         foreach(var consumer in this.oxygenController.OxygenConsumers)
         {
             sb.Append(System.Environment.NewLine);
-            sb.Append("• Room ");
+            sb.Append("• Pièce ");
             sb.Append(consumer.GetComponent<RoomScript>().RoomName);
         }
 
         sb.Append(System.Environment.NewLine);
         sb.Append("=====================");
         sb.Append(System.Environment.NewLine);
-        sb.Append("Status: " + (this.oxygenController.IsOpened ? "Opened" : "Closed"));
+        sb.Append("Etat: " + (this.oxygenController.IsOpened ? "Ouvert" : "Fermé"));
 
         this.objectDescription = sb.ToString();
     }
