@@ -4,56 +4,64 @@ using UnityEngine;
 
 public class RoomScript : MonoBehaviour
 {
+    [SerializeField] private string roomName;
+    [SerializeField] private long requiredPressure = 1000;
+    [SerializeField] private float currentPressure;
+    [SerializeField] private OxygenConsumer oxygenConsumer;
 
-    public string RoomName;
+    public event System.Action OnRoomChange;
 
-    float currentPressure;
-    public float CurrentPressure
+    public string RoomName
     {
         get
         {
-            return this.currentPressure;
-        }
-        set
-        {
-            this.currentPressure = value;
-            this.OnRoomChange();
+            return this.roomName;
         }
     }
-
-    float requiredPressure;
+    
     public float RequiredPressure
     {
         get
         {
             return this.requiredPressure;
         }
-        set
+    }   
+    
+    public float CurrentPressure
+    {
+        get
         {
-            this.requiredPressure = value;
-            this.OnRoomChange();
+            return this.currentPressure;
+        }
+        private set
+        {            
+            this.currentPressure = value;
+            this.OnRoomChange?.Invoke();
         }
     }
 
-    public event System.Action OnRoomChange;
-
-    // Start is called before the first frame update
-    void Start()
+    public OxygenConsumer OxygenConsumer
     {
-        
+        get
+        {
+            return this.oxygenConsumer;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void Awake()
     {
-        
+        this.oxygenConsumer = this.GetComponent<OxygenConsumer>();
+        if (this.oxygenConsumer is null) throw new System.NullReferenceException("GameObject must have OxygenProducer component attached to it.");
+
+        // Bind pressure changed event
+        this.oxygenConsumer.PressureChanged += c => this.CurrentPressure = c.CurrentPressure;
+
     }
 
-    public bool isPressurised()
+
+    public bool IsPressurised()
     {
-        if (currentPressure >= RequiredPressure)
-            return true;
-        else
-            return false;
+        return this.currentPressure >= this.requiredPressure;
     }
 }

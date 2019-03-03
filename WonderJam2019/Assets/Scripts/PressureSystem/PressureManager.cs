@@ -11,6 +11,9 @@ public class PressureManager : MonoBehaviour
     private Dictionary<OxygenConsumer, HashSet<OxygenController>> _consumersToControllers { get; } = new Dictionary<OxygenConsumer, HashSet<OxygenController>>();
     private Dictionary<OxygenController, HashSet<OxygenProducer>> _controllersToProducers { get; } = new Dictionary<OxygenController, HashSet<OxygenProducer>>();
 
+    public event Action<int> GeneratedGraphs;
+    public int NetworkCount => this._networks.Count;
+
     public int GetNetworkIndex(OxygenConsumer consumer)
     {
         return this._networks
@@ -93,6 +96,7 @@ public class PressureManager : MonoBehaviour
         foreach (var network in this._networks)
         {
             network.UnbindEvents();
+            network.ResetPressureLevels();
         }
 
         // Rebuild the network graphs.
@@ -126,6 +130,9 @@ public class PressureManager : MonoBehaviour
 
         // Update the pressure in each netwok.
         this.UpdatePressureLevels();
+
+        if(this.GeneratedGraphs != null)
+            this.GeneratedGraphs(this._networks.Count);
     }
 
     private void UpdatePressureLevels()
@@ -166,11 +173,20 @@ public class PressureManager : MonoBehaviour
             {
                 var totalPressure = this._producers.Sum(p => p.CurrentPressure);
                 var individualPressure = totalPressure / consumers.Length;
-
+                
                 foreach (var consumer in consumers)
                 {
                     consumer.CurrentPressure = individualPressure;
                 }
+            }
+        }
+
+        public void ResetPressureLevels()
+        {
+            var consumers = this.Consumers.ToArray();
+            foreach (var consumer in consumers)
+            {
+                consumer.CurrentPressure = 0;
             }
         }
 

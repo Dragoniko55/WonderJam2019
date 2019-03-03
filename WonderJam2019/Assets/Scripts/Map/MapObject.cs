@@ -7,11 +7,14 @@ using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Image))]
 [RequireComponent(typeof(RectTransform))]
-public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     protected Image displayImage;
     protected GameObject rootMap;
     protected string objectDescription;
+    protected bool selected = false;
+
+    [SerializeField] Texture2D cursorTexture;
 
     /// <summary>
     /// Init component
@@ -41,13 +44,42 @@ public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerE
 
     protected abstract void GenerateDescription();
 
+
+    public virtual void OnSelected()
+    {
+        this.selected = true;
+    }
+
+    public virtual void OnUnselected()
+    {
+        this.selected = false;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if(!this.selected)
+        {
+            Singleton<MapManager>.Instance.Select(this);
+            this.OnSelected();
+        }
+        else
+        {
+            Singleton<MapManager>.Instance.Select(null);
+            this.OnUnselected();
+        }
+    }
+
     public virtual void OnPointerExit(PointerEventData eventData)
     {
         Singleton<MapManager>.Instance.HideDescription();
+
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     public virtual void OnPointerEnter(PointerEventData eventData)
     {
         Singleton<MapManager>.Instance.ShowDescription(this.objectDescription);
+
+        Cursor.SetCursor(this.cursorTexture, Vector2.zero, CursorMode.Auto);
     }
 }

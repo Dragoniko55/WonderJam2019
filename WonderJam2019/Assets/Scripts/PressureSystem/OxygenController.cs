@@ -24,11 +24,11 @@ public class OxygenController : MonoBehaviour
 
                 if (this._isOpened)
                 {
-                    this.Opened(this);
+                    this.Opened?.Invoke(this);
                 }
                 else
                 {
-                    this.Closed(this);
+                    this.Closed?.Invoke(this);
                 }
             }
         }
