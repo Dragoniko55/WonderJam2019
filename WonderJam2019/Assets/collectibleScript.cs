@@ -23,6 +23,6 @@ public class collectibleScript : MonoBehaviour
     {
 
         this.GetComponent<BoxCollider>().enabled = false;
-        this.GetComponent<MeshRenderer>().enabled = false;
+        gameObject.SetActive(false);
     }
 }
