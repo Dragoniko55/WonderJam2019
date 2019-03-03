@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 625935666232137876}
   - component: {fileID: 3183099913954121551}
   - component: {fileID: 3584843584331453860}
+  - component: {fileID: 2699915973502705441}
   m_Layer: 0
   m_Name: valve
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2699915973502705441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271451038078850613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43000004, y: 0.43000004, z: 0.10000003}
+  m_Center: {x: 0.0012774487, y: -0.0000004783322, z: 0.05000024}

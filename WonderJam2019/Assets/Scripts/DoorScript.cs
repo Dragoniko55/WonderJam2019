@@ -27,21 +27,17 @@ public class DoorScript : MonoBehaviour
         room = LinkedRoom.GetComponent<RoomScript>();
     }
 
-    //void Update()
-    //{
-    //    if(isopening)
-    //    {
-    //        transform.position = Vector3.SmoothDamp(transform.position, targetposs, ref velocity, smoothFactor);
-    //    }
-    //    else
-    //    {
-    //        transform.position = Vector3.SmoothDamp(transform.position, initposs, ref velocity, smoothFactor);
-    //    }
+    void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            Interact();
+        }
+    }
     
     public void Interact()
     {
         bool CanOpen = room.IsPressurised();
-
         if (CanOpen)
         {
             Debug.Log("Door Oppening");
