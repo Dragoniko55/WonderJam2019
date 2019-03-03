@@ -35,4 +35,10 @@ public class OxygenProducer : MonoBehaviour
     public long AvailablePressure => this._availablePressure;
     public long CurrentPressure => this.IsActive ? this.AvailablePressure : 0;
     public IEnumerable<OxygenController> OxygenControllers => this._oxygenControllers;
+
+    public void Interact()
+    {
+        DestroyImmediate(this.GetComponentInChildren<SphereCollider>());
+        this.IsActive = true;
+    }
 }
