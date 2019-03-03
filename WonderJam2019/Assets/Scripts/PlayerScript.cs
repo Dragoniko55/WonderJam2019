@@ -75,6 +75,8 @@ public class PlayerScript : MonoBehaviour
 
     IEnumerator die()
     {
+        var currentRoom = this.CurrentRoom;
+
         //cought
         if (!dyingSource.isPlaying)
         {
@@ -82,11 +84,15 @@ public class PlayerScript : MonoBehaviour
         }
 
         yield return new WaitForSeconds(5f);
-        if (!(CurrentRoom ?? previousRoom).IsPressurised())
+
+        var room = CurrentRoom ?? previousRoom;
+        if (room == currentRoom && !room.IsPressurised())
         {
 
             SceneManager.LoadScene(3);
         }
+
+        dyingSource.Stop();
     }
 }
 
