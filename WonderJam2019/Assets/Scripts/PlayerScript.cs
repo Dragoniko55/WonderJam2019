@@ -10,10 +10,12 @@ public class PlayerScript : MonoBehaviour
     public float MaxDisplayPressure = 5000f;
     public TMPro.TextMeshProUGUI RoomText;
 
+    public AudioSource dyingSource;
+
     private HudController hudController;
 
     private RoomScript previousRoom;
-    private RoomScript currentRoom;    
+    private RoomScript currentRoom;
 
     public RoomScript CurrentRoom
     {
@@ -59,7 +61,7 @@ public class PlayerScript : MonoBehaviour
         {
 
             StartCoroutine(die());
-            
+
         }
     }
 
@@ -74,6 +76,11 @@ public class PlayerScript : MonoBehaviour
     IEnumerator die()
     {
         //cought
+        if (!dyingSource.isPlaying)
+        {
+            dyingSource.Play();
+        }
+
         yield return new WaitForSeconds(5f);
         if (!(CurrentRoom ?? previousRoom).IsPressurised())
         {

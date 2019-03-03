@@ -5516,6 +5516,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomL
       objectReference: {fileID: 0}
+    - target: {fileID: 1899557955131559030, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997087221066298384, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481997958242315487, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593747583717818713, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6461609050665672082, guid: 157cc3d51db24ae4d9d44511884643d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5575,26 +5595,6 @@ PrefabInstance:
         type: 3}
       propertyPath: roomName
       value: L
-      objectReference: {fileID: 0}
-    - target: {fileID: 1899557955131559030, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4481997958242315487, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5593747583717818713, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1997087221066298384, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7161701407528615671, guid: 157cc3d51db24ae4d9d44511884643d6,
         type: 3}
@@ -8962,6 +8962,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomJ
       objectReference: {fileID: 0}
+    - target: {fileID: 1899557955131559030, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481997958242315487, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6461609050665672082, guid: 157cc3d51db24ae4d9d44511884643d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9022,21 +9032,6 @@ PrefabInstance:
       propertyPath: roomName
       value: J
       objectReference: {fileID: 0}
-    - target: {fileID: 1899557955131559030, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4481997958242315487, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7161701407528615671, guid: 157cc3d51db24ae4d9d44511884643d6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 390473307319033635, guid: 157cc3d51db24ae4d9d44511884643d6,
         type: 3}
       propertyPath: m_IsActive
@@ -9046,6 +9041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7161701407528615671, guid: 157cc3d51db24ae4d9d44511884643d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 157cc3d51db24ae4d9d44511884643d6, type: 3}
@@ -24763,11 +24763,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RigidBodyFPSController
-      objectReference: {fileID: 0}
-    - target: {fileID: 1633503652684821775, guid: 207a082f9d997e24abb7aa510e0a8f7d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1633503652684821771, guid: 207a082f9d997e24abb7aa510e0a8f7d,
         type: 3}
