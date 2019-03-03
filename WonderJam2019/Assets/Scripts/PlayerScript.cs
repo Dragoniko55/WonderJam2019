@@ -22,7 +22,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (value != this.currentRoom)
             {
-                this.RoomText.text = "SAS";
+                this.RoomText.text = "Couloir";
 
                 if (this.previousRoom != null && value != this.previousRoom)
                 {
@@ -53,14 +53,11 @@ public class PlayerScript : MonoBehaviour
 
     private void OxygenConsumer_PressureChanged(OxygenConsumer oxygenConsumer)
     {
-        if (this.currentRoom?.OxygenConsumer == oxygenConsumer)
-        {
-            this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure - this.PressureTolerance) / this.MaxDisplayPressure);
+        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure - this.PressureTolerance) / this.MaxDisplayPressure);
 
-            if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
-            {
-                SceneManager.LoadScene(3);
-            }
+        if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
+        {
+            SceneManager.LoadScene(3);
         }
     }
 }
