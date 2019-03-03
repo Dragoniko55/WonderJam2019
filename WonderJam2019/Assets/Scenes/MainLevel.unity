@@ -530,6 +530,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomG
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -634,51 +679,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -2099,6 +2099,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomH
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2204,51 +2249,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
-      objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -2288,6 +2288,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomF
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -2393,51 +2438,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -3747,6 +3747,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomQ
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3851,51 +3896,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -4272,6 +4272,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomD
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4376,51 +4421,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -6266,6 +6266,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomC
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6370,51 +6415,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -7429,6 +7429,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomI
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7533,51 +7578,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -8089,6 +8089,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomB
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8193,51 +8238,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -10143,6 +10143,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomP
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10247,51 +10292,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -10948,6 +10948,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomU
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11052,51 +11097,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -11424,6 +11424,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -11443,6 +11473,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -11549,51 +11624,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
-      objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -11633,6 +11663,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomO
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -11739,51 +11814,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
-      objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -11835,6 +11865,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomR
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -11940,51 +12015,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -12593,6 +12623,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -18117,6 +18177,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomM
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18222,51 +18327,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
-      objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -18306,6 +18366,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoomJ
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -18411,51 +18516,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -21607,6 +21667,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 103558332010364460, guid: c29aa2458d37eb449b5ed0f314e3c0e8,
+        type: 3}
+      propertyPath: m_Name
+      value: machineSecours
+      objectReference: {fileID: 0}
+    - target: {fileID: 103558332010364460, guid: c29aa2458d37eb449b5ed0f314e3c0e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7748845981018962368, guid: c29aa2458d37eb449b5ed0f314e3c0e8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21661,16 +21731,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 103558332010364460, guid: c29aa2458d37eb449b5ed0f314e3c0e8,
-        type: 3}
-      propertyPath: m_Name
-      value: machineSecours
-      objectReference: {fileID: 0}
-    - target: {fileID: 103558332010364460, guid: c29aa2458d37eb449b5ed0f314e3c0e8,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3100432968376584969, guid: c29aa2458d37eb449b5ed0f314e3c0e8,
         type: 3}
@@ -21796,6 +21856,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomE
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21900,51 +22005,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -23623,6 +23683,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomT
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23727,51 +23832,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -24174,6 +24234,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -24471,6 +24561,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomK
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24575,51 +24710,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -25061,6 +25151,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomW
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25165,51 +25300,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -25470,6 +25560,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomL
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25574,51 +25709,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -25938,6 +26028,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomS
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26042,51 +26177,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -26369,6 +26459,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomY
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26473,51 +26608,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -28591,6 +28681,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomX
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28695,51 +28830,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -29298,6 +29388,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomV
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29402,51 +29537,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -29573,6 +29663,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomZ
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29677,51 +29812,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -32252,6 +32342,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomA
       objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: NotPressurisedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+        type: 3}
+      propertyPath: PresurisedColor.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303152701561669171, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32357,50 +32492,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
+    - target: {fileID: 3303152701561669175, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: NotPressurisedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.r
-      value: 0.48313457
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.g
-      value: 0.54026747
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669168, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: PresurisedColor.b
-      value: 0.7264151
+      propertyPath: m_EffectDistance.y
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 3303152702644020202, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
         type: 3}
@@ -32427,11 +32522,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3303152701561669175, guid: 46022a4b9bb8ab64bb4a9c494fc291a2,
-        type: 3}
-      propertyPath: m_EffectDistance.y
-      value: -5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46022a4b9bb8ab64bb4a9c494fc291a2, type: 3}
@@ -32847,6 +32937,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -32889,8 +33009,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-  ActivatedGeneratorColor: {r: 0.5754595, g: 0.8584906, b: 0.125534, a: 1}
-  DeactivatedGeneratorColor: {r: 1, g: 0, b: 0, a: 1}
+  ActivatedGeneratorColor: {r: 1, g: 0.94117653, b: 0, a: 1}
+  DeactivatedGeneratorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &562201125320008343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32904,8 +33024,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-  ActivatedGeneratorColor: {r: 0.5754595, g: 0.8584906, b: 0.125534, a: 1}
-  DeactivatedGeneratorColor: {r: 1, g: 0, b: 0, a: 1}
+  ActivatedGeneratorColor: {r: 1, g: 0.94117653, b: 0, a: 1}
+  DeactivatedGeneratorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &563189526859090544
 GameObject:
   m_ObjectHideFlags: 0
@@ -33074,6 +33194,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -33191,8 +33341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-  ActivatedGeneratorColor: {r: 0.5754595, g: 0.8584906, b: 0.125534, a: 1}
-  DeactivatedGeneratorColor: {r: 1, g: 0, b: 0, a: 1}
+  ActivatedGeneratorColor: {r: 1, g: 0.94117653, b: 0, a: 1}
+  DeactivatedGeneratorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!224 &1080873898898459631
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33227,8 +33377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-  ActivatedGeneratorColor: {r: 0.5754595, g: 0.8584906, b: 0.125534, a: 1}
-  DeactivatedGeneratorColor: {r: 1, g: 0, b: 0, a: 1}
+  ActivatedGeneratorColor: {r: 1, g: 0.94117653, b: 0, a: 1}
+  DeactivatedGeneratorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1375216859612060354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33350,6 +33500,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -33480,6 +33660,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -33898,6 +34108,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -34027,6 +34267,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -34158,6 +34428,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -34287,6 +34587,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -34502,6 +34832,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -34632,6 +34992,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -34761,6 +35151,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -35022,6 +35442,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -35152,6 +35602,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -35281,6 +35761,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -35449,6 +35959,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -35597,6 +36137,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -36020,6 +36590,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -36172,6 +36772,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -36318,6 +36948,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -36447,6 +37107,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -36718,6 +37408,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -36848,6 +37568,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -36977,6 +37727,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -37238,6 +38018,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -37367,6 +38177,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -37524,6 +38364,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -37653,6 +38523,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -38209,7 +39109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -765.50006, y: 845.3334}
+  m_AnchoredPosition: {x: -970.8543, y: 845.3334}
   m_SizeDelta: {x: 1400, y: 1600}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &6080973060351899416
@@ -38394,10 +39294,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "<size=200%><b>L\xE9gende</b><size=100%>\n<sprite=\"icons_atlas\" index=0
     color=#FFF000 tint=1> G\xE9n\xE9rateur activ\xE9\n<sprite=\"icons_atlas\" index=0
-    color=#FFF000 tint=1> G\xE9n\xE9rateur d\xE9sactiv\xE9\n<sprite=\"icons_atlas\"
-    index=1 color=#FFF000 tint=1> Valve ouverte\n<sprite=\"icons_atlas\" index=1 color=#FFF000
-    tint=1> Valve ferm\xE9e\n<sprite=\"icons_atlas\" index=2 color=#FFF000 tint=1>
-    Pi\xE8ce oxyg\xE9n\xE9e\n<sprite=\"icons_atlas\" index=2 color=#FFF000 tint=1>
+    color=#FFFFFF tint=1> G\xE9n\xE9rateur d\xE9sactiv\xE9\n<sprite=\"icons_atlas\"
+    index=1 color=#0FF806 tint=1> Valve ouverte\n<sprite=\"icons_atlas\" index=1 color=#F00F0F
+    tint=1> Valve ferm\xE9e\n<sprite=\"icons_atlas\" index=2 color=#55FFFF tint=1>
+    Pi\xE8ce oxyg\xE9n\xE9e\n<sprite=\"icons_atlas\" index=2 color=#000000 tint=1>
     Pi\xE8ce non oxyg\xE9n\xE9e"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -38733,8 +39633,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-  ActivatedGeneratorColor: {r: 0.5754595, g: 0.8584906, b: 0.125534, a: 1}
-  DeactivatedGeneratorColor: {r: 1, g: 0, b: 0, a: 1}
+  ActivatedGeneratorColor: {r: 1, g: 0.94117653, b: 0, a: 1}
+  DeactivatedGeneratorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6080973060827448128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40189,6 +41089,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -40318,6 +41248,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -40544,6 +41504,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -41386,6 +42376,36 @@ PrefabInstance:
       propertyPath: DefaultOutlineColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
+      objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
       propertyPath: m_Sprite
@@ -41534,8 +42554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: a1148aae4822ae74a8b188676dda10f3, type: 3}
-  ActivatedGeneratorColor: {r: 0.5754595, g: 0.8584906, b: 0.125534, a: 1}
-  DeactivatedGeneratorColor: {r: 1, g: 0, b: 0, a: 1}
+  ActivatedGeneratorColor: {r: 1, g: 0.94117653, b: 0, a: 1}
+  DeactivatedGeneratorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7936195021054879143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41686,6 +42706,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
@@ -41890,6 +42940,36 @@ PrefabInstance:
         type: 3}
       propertyPath: DefaultOutlineColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.r
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.g
+      value: 0.9725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: OpenValveColor.b
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.r
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.g
+      value: 0.058823533
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562347658536519370, guid: 9324ab94e69b75a498ab745e50ca0339,
+        type: 3}
+      propertyPath: ClosedValveColor.b
+      value: 0.058823533
       objectReference: {fileID: 0}
     - target: {fileID: 8145806342407622845, guid: 9324ab94e69b75a498ab745e50ca0339,
         type: 3}
