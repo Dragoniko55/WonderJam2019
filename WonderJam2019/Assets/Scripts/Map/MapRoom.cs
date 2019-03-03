@@ -12,7 +12,22 @@ public class MapRoom : MapObject
 
     private RoomScript roomScript;    
     private Outline outline;
-    private MapValve[] mapValves;
+    private MapValve[] mapValves;    
+
+    protected MapValve[] MapValves
+    {
+        get
+        {   
+            if(mapValves is null)
+            {
+                this.mapValves = Singleton<PressureManager>.Instance
+                    .GetLinkedControllers(this.roomScript.OxygenConsumer)
+                    .Select(v => v.GetComponent<ValveScript>().mapValve)
+                    .ToArray();
+            }
+            return this.mapValves;
+        }
+    }
 
     protected override void Awake()
     {
@@ -28,7 +43,7 @@ public class MapRoom : MapObject
 
         // Bind render and description event
         this.roomScript.OnRoomChange += this.Render;
-        this.roomScript.OnRoomChange += this.GenerateDescription;
+        this.roomScript.OnRoomChange += this.GenerateDescription;      
 
         Singleton<PressureManager>.Instance.GeneratedGraphs += c => this.Render();
         Singleton<PressureManager>.Instance.GeneratedGraphs += c => this.GenerateDescription();
@@ -39,13 +54,7 @@ public class MapRoom : MapObject
 
     protected override void Start()
     {
-        base.Start();
-
-        // Get map valves
-        this.mapValves = Singleton<PressureManager>.Instance
-            .GetLinkedControllers(this.roomScript.OxygenConsumer)
-            .Select(v => v.GetComponent<ValveScript>().mapValve)
-            .ToArray();
+        base.Start();        
     }
 
     public override void Render()
@@ -103,9 +112,7 @@ public class MapRoom : MapObject
     {
         base.OnSelected();
 
-        Debug.Log(mapValves.Count());
-
-        foreach (var mapValve in this.mapValves)
+        foreach (var mapValve in this.MapValves)
         {
             mapValve.Higlight();
         }
@@ -115,7 +122,7 @@ public class MapRoom : MapObject
     {
         base.OnUnselected();
 
-        foreach (var mapValve in this.mapValves)
+        foreach (var mapValve in this.MapValves)
         {
             mapValve.UnHighlight();
         }

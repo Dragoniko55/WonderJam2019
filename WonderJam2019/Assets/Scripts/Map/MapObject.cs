@@ -12,8 +12,9 @@ public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerE
     protected Image displayImage;
     protected GameObject rootMap;
     protected string objectDescription;
-
     protected bool selected = false;
+
+    [SerializeField] Texture2D cursorTexture;
 
     /// <summary>
     /// Init component
@@ -56,8 +57,6 @@ public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerE
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("CLICKED");
-
         if(!this.selected)
         {
             Singleton<MapManager>.Instance.Select(this);
@@ -73,10 +72,14 @@ public abstract class MapObject : MonoBehaviour, IPointerEnterHandler, IPointerE
     public virtual void OnPointerExit(PointerEventData eventData)
     {
         Singleton<MapManager>.Instance.HideDescription();
+
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     public virtual void OnPointerEnter(PointerEventData eventData)
     {
         Singleton<MapManager>.Instance.ShowDescription(this.objectDescription);
+
+        Cursor.SetCursor(this.cursorTexture, Vector2.zero, CursorMode.Auto);
     }
 }

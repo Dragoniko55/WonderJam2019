@@ -31,14 +31,14 @@ public class MapManager : MonoBehaviour
         Color.white
     };
 
-    private bool showDescription = false;
-    private bool mapShown = true;
+    private bool showDescription;
 
     private RectTransform descriptionPane;
     private MapObject selectedMapObject;
     private RectTransform mapSurface;
     private RectTransform legendPane;
     private TextMeshProUGUI networkPaneText;
+    private RectTransform rootMap;
 
     private void Start()
     {
@@ -54,6 +54,10 @@ public class MapManager : MonoBehaviour
 
         this.networkPaneText = FindObjectsOfType<TextMeshProUGUI>().FirstOrDefault(rt => rt.name == "NetworkPaneText");
         if (this.networkPaneText is null) throw new System.NullReferenceException("Could not find the Network Pane Text.");
+
+        this.rootMap = FindObjectsOfType<RectTransform>().FirstOrDefault(rt => rt.name == "Map");
+        if (this.rootMap is null) throw new System.NullReferenceException("Could not find the map.");
+        this.rootMap.gameObject.SetActive(false);
 
         // Bind events
         Singleton<PressureManager>.Instance.GeneratedGraphs += this.UpdateNetworkPane;
@@ -115,7 +119,7 @@ public class MapManager : MonoBehaviour
 
     private void Update()
     {
-        if (this.mapShown)
+        if (this.rootMap.gameObject.activeSelf)
         {
             float factor = 0.25f;
             if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Equals))
@@ -139,7 +143,12 @@ public class MapManager : MonoBehaviour
             else if(Input.GetKeyDown(KeyCode.H))
             {
                 this.legendPane.gameObject.SetActive(!this.legendPane.gameObject.activeSelf);
-            }
+            }    
+        }
+
+        if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Tab))
+        {
+            this.rootMap.gameObject.SetActive(!this.rootMap.gameObject.activeSelf);
         }
     }
 }
