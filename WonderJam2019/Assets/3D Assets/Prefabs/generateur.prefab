@@ -212,6 +212,7 @@ MonoBehaviour:
   _oxygenControllers: []
   _isActive: 0
   _availablePressure: 5000
+  ActivatedMaterial: {fileID: 2100000, guid: 0d2076da9361aa243ab5d666d1c4f67c, type: 2}
 --- !u!1 &2490605682203743080
 GameObject:
   m_ObjectHideFlags: 0

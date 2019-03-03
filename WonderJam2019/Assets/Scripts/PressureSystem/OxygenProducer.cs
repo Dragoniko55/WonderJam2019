@@ -15,6 +15,8 @@ public class OxygenProducer : MonoBehaviour
 
     public event Action<OxygenProducer> Activated;
 
+    public Material ActivatedMaterial;
+
     public bool IsActive
     {
         get => this._isActive;

@@ -144,7 +144,7 @@ public class MapManager : MonoBehaviour
 
             else if(Input.GetKeyDown(KeyCode.H))
             {
-                this.legendPane.gameObject.SetActive(!this.IsActive);
+                this.legendPane.gameObject.SetActive(!this.legendPane.gameObject.activeSelf);
             }    
         }
 
