@@ -53,11 +53,14 @@ public class PlayerScript : MonoBehaviour
 
     private void OxygenConsumer_PressureChanged(OxygenConsumer oxygenConsumer)
     {
-        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure  - this.PressureTolerance) / this.MaxDisplayPressure);
-
-        if(oxygenConsumer.CurrentPressure < this.PressureTolerance)
+        if (this.currentRoom?.OxygenConsumer == oxygenConsumer)
         {
-            SceneManager.LoadScene(3);
+            this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure - this.PressureTolerance) / this.MaxDisplayPressure);
+
+            if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
+            {
+                SceneManager.LoadScene(3);
+            }
         }
     }
 }
