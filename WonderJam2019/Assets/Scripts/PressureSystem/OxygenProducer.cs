@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class OxygenProducer : MonoBehaviour
@@ -17,6 +18,7 @@ public class OxygenProducer : MonoBehaviour
 
     public Material ActivatedMaterial;
 
+
     public bool IsActive
     {
         get => this._isActive;
@@ -27,8 +29,8 @@ public class OxygenProducer : MonoBehaviour
                 this._isActive = value;
                 
                 if (this._isActive)
-                {
-                    this.Activated?.Invoke(this);
+                {   
+                    this.Activated?.Invoke(this);                    
                 }
             }
         }
@@ -50,5 +52,6 @@ public class OxygenProducer : MonoBehaviour
     {
         DestroyImmediate(this.GetComponentInChildren<SphereCollider>());
         this.IsActive = true;
+        this.GetComponentsInChildren<MeshRenderer>().First(c => c.name == "Button").material = this.ActivatedMaterial;
     }
 }
