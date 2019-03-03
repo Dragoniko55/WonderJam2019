@@ -57,7 +57,22 @@ public class PlayerScript : MonoBehaviour
 
         if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {
+
+            StartCoroutine(die(oxygenConsumer));
+            
+        }
+    }
+
+    IEnumerator die(OxygenConsumer oxygenConsumer)
+    {
+        //cought
+        yield return new WaitForSeconds(5f);
+        if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
+        {
+
             SceneManager.LoadScene(3);
         }
     }
 }
+
+
