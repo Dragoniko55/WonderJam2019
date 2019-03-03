@@ -10,10 +10,12 @@ public class PlayerScript : MonoBehaviour
     public float MaxDisplayPressure = 5000f;
     public TMPro.TextMeshProUGUI RoomText;
 
+    public AudioSource dyingSource;
+
     private HudController hudController;
 
     private RoomScript previousRoom;
-    private RoomScript currentRoom;    
+    private RoomScript currentRoom;
 
     public RoomScript CurrentRoom
     {
@@ -22,7 +24,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (value != this.currentRoom)
             {
-                this.RoomText.text = "SAS";
+                this.RoomText.text = "Couloir";
 
                 if (this.previousRoom != null && value != this.previousRoom)
                 {
@@ -53,11 +55,45 @@ public class PlayerScript : MonoBehaviour
 
     private void OxygenConsumer_PressureChanged(OxygenConsumer oxygenConsumer)
     {
-        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure  - this.PressureTolerance) / this.MaxDisplayPressure);
+        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure - this.PressureTolerance) / this.MaxDisplayPressure);
 
-        if(oxygenConsumer.CurrentPressure < this.PressureTolerance)
+        if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {
-            SceneManager.LoadScene(3);
+
+            StartCoroutine(die());
+
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
+    IEnumerator die()
+    {
+        var currentRoom = this.CurrentRoom;
+
+        //cought
+        if (!dyingSource.isPlaying)
+        {
+            dyingSource.Play();
+        }
+
+        yield return new WaitForSeconds(5f);
+
+        var room = CurrentRoom ?? previousRoom;
+        if (room == currentRoom && !room.IsPressurised())
+        {
+
+            SceneManager.LoadScene(3);
+        }
+
+        dyingSource.Stop();
+    }
 }
+
+

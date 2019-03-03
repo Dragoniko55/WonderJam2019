@@ -11,7 +11,8 @@ public class LevelLoader : MonoBehaviour
     public void LoadLevel(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));
-        
+
+        Debug.Log("load");
     }
 
     IEnumerator LoadAsynchronously(int sceneIndex)
@@ -25,6 +26,7 @@ public class LevelLoader : MonoBehaviour
             Debug.Log(progress);
             if(progress == 1.0f)
             {
+                Debug.Log("Active");
                 GO_skip.SetActive(true);
             }
             yield return null;
