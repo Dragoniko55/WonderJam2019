@@ -63,6 +63,14 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
     IEnumerator die()
     {
         //cought
