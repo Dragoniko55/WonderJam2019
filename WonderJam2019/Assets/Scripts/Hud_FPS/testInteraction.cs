@@ -22,13 +22,13 @@ public class testInteraction : MonoBehaviour
     {
         if (it % 2 == 0)
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController>().setTextInfo("Un cube de test IMPORTANT a été cliqué", true);
-            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController>().setOxygenValue(0.1f);
+            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController2>().setTextInfo("Un cube de test IMPORTANT a été cliqué", true);
+            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController2>().setOxygenValue(0.1f);
         }
         else
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController>().setTextInfo("Un second clic a été réalisé", false);
-            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController>().setOxygenValue(1.0f);
+            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController2>().setTextInfo("Un second clic a été réalisé", false);
+            GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<HudController2>().setOxygenValue(1.0f);
         }
         ++it;
     }

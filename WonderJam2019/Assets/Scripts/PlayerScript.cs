@@ -9,7 +9,7 @@ public class PlayerScript : MonoBehaviour
     public float MaxDisplayPressure = 5000f;
     public TMPro.TextMeshProUGUI RoomText;
 
-    private HudController hudController;
+    private HudController2 hudController;
 
     private RoomScript previousRoom;
     private RoomScript currentRoom;    
@@ -46,7 +46,7 @@ public class PlayerScript : MonoBehaviour
 
     private void Awake()
     {
-        this.hudController = FindObjectOfType<HudController>();
+        this.hudController = FindObjectOfType<HudController2>();
     }
 
     private void OxygenConsumer_PressureChanged(OxygenConsumer oxygenConsumer)
