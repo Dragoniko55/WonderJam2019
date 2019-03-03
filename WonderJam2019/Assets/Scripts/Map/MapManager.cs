@@ -21,14 +21,14 @@ public class MapManager : MonoBehaviour
     /// </summary>
     public readonly Color[] NetworkColors = new Color[]
     {
+        Color.yellow,
+        Color.white,
         Color.blue,
         Color.cyan,
         Color.gray,
         Color.green,
         Color.magenta,
-        Color.red,
-        Color.yellow,
-        Color.white
+        Color.red
     };
 
     private bool showDescription;

@@ -12,7 +12,10 @@ public class MapRoom : MapObject
 
     private RoomScript roomScript;    
     private Outline outline;
-    private MapValve[] mapValves;    
+    private MapValve[] mapValves;
+
+    public Color PresurisedColor;
+    public Color NotPressurisedColor;
 
     protected MapValve[] MapValves
     {
@@ -62,11 +65,11 @@ public class MapRoom : MapObject
     {
         // var roomContainer = rootMap.transform.Find(MapManager.RoomsContainerName);
         // if (roomContainer is null) throw new System.NullReferenceException("Room folder not found in the specified canvas.");
-        
+
         // TODO: get the network id from the singleton by passing reference to roomScript
         var network_id = Singleton<PressureManager>.Instance.GetNetworkIndex(this.roomScript.OxygenConsumer);
-        
-        if(network_id > -1)
+
+        if (network_id > -1)
         {
             if (!this.outline.enabled)
                 this.outline.enabled = true;
@@ -79,13 +82,13 @@ public class MapRoom : MapObject
             this.outline.enabled = false;
         }
 
-        if(this.roomScript.IsPressurised())
+        if (this.roomScript.IsPressurised())
         {
-            this.displayImage.color = Color.blue;
+            this.displayImage.color = this.PresurisedColor;
         }
         else
         {
-            this.displayImage.color = Color.red;
+            this.displayImage.color = this.NotPressurisedColor;
         }
     }
 
