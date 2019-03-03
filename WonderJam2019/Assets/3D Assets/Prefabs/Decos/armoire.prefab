@@ -86,6 +86,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4994704660961209555}
+  - component: {fileID: 3331456302672910965}
   m_Layer: 0
   m_Name: armoire
   m_TagString: Untagged
@@ -110,6 +111,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3331456302672910965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846560311032431337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8138758, y: 0.30838686, z: 1.0904416}
+  m_Center: {x: 0.002658772, y: 0.0053199884, z: 0.0026600487}
 --- !u!1 &6539955664556096957
 GameObject:
   m_ObjectHideFlags: 0
