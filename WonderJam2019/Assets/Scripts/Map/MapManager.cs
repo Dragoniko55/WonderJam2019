@@ -39,6 +39,7 @@ public class MapManager : MonoBehaviour
     private RectTransform legendPane;
     private TextMeshProUGUI networkPaneText;
     private RectTransform rootMap;
+    private UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController rigidbodyFirstPersonController;
 
     private void Start()
     {
@@ -58,6 +59,8 @@ public class MapManager : MonoBehaviour
         this.rootMap = FindObjectsOfType<RectTransform>().FirstOrDefault(rt => rt.name == "Map");
         if (this.rootMap is null) throw new System.NullReferenceException("Could not find the map.");
         this.rootMap.gameObject.SetActive(false);
+
+        this.rigidbodyFirstPersonController = FindObjectOfType<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>();
 
         // Bind events
         Singleton<PressureManager>.Instance.GeneratedGraphs += this.UpdateNetworkPane;
@@ -149,6 +152,8 @@ public class MapManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Tab))
         {
             this.rootMap.gameObject.SetActive(!this.rootMap.gameObject.activeSelf);
+            this.rigidbodyFirstPersonController.mouseLook.SetCursorLock(!this.rootMap.gameObject.activeSelf);
+            Time.timeScale = !this.rootMap.gameObject.activeSelf ? 1 : 0;
         }
     }
 }
