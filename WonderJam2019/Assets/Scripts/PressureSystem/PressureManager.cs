@@ -25,8 +25,8 @@ public class PressureManager : MonoBehaviour
     public IEnumerable<OxygenController> GetLinkedControllers(OxygenConsumer oxygenConsumer)
     {
         return this._consumersToControllers
-            .TryGetValue(oxygenConsumer, out var controllers) ? 
-                controllers : 
+            .TryGetValue(oxygenConsumer, out var controllers) ?
+                controllers :
                 Enumerable.Empty<OxygenController>();
     }
 
@@ -92,7 +92,12 @@ public class PressureManager : MonoBehaviour
 
     private void Consumer_VolumeChanged(OxygenConsumer consumer)
     {
-        this._networks.FirstOrDefault(n => n.Contains(consumer))?.UpdatePressureLevels();
+        var net = this._networks.FirstOrDefault(n => n.Contains(consumer));
+
+        if (net != null)
+        {
+            net.UpdatePressureLevels();
+        }
     }
 
     private void RebuildNetworks()
@@ -138,7 +143,7 @@ public class PressureManager : MonoBehaviour
         // Update the pressure in each netwok.
         this.UpdatePressureLevels();
 
-        if(this.GeneratedGraphs != null)
+        if (this.GeneratedGraphs != null)
             this.GeneratedGraphs(this.NetworkCount);
     }
 
@@ -179,8 +184,10 @@ public class PressureManager : MonoBehaviour
             if (consumers.Any())
             {
                 var totalPressure = this._producers.Sum(p => p.CurrentPressure);
-                var individualPressure = totalPressure / consumers.Length;
-                
+                var individualPressure = totalPressure * 1000 / consumers.Sum(c => c.Volume);
+
+                Debug.Log(individualPressure);
+
                 foreach (var consumer in consumers)
                 {
                     consumer.CurrentPressure = individualPressure;

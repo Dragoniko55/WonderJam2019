@@ -10,6 +10,8 @@ public class PlayerScript : MonoBehaviour
     public TMPro.TextMeshProUGUI RoomText;
 
     private HudController hudController;
+
+    private RoomScript previousRoom;
     private RoomScript currentRoom;    
 
     public RoomScript CurrentRoom
@@ -20,15 +22,24 @@ public class PlayerScript : MonoBehaviour
             if (value != this.currentRoom)
             {
                 this.RoomText.text = "SAS";
+
+                if (this.previousRoom != null && value != this.previousRoom)
+                {
+                    this.previousRoom.OxygenConsumer.PressureChanged -= OxygenConsumer_PressureChanged;
+                }
+
+                if (this.currentRoom == null && this.previousRoom != value)
+                {
+                    value.OxygenConsumer.PressureChanged += OxygenConsumer_PressureChanged;
+                }
+
+                this.previousRoom = this.currentRoom;
                 this.currentRoom = value;
 
                 if (this.currentRoom != null)
                 {
                     this.RoomText.text = "Pièce " + value.RoomName;
-                    this.currentRoom.OxygenConsumer.PressureChanged -= OxygenConsumer_PressureChanged;
                 }
-                
-                this.currentRoom.OxygenConsumer.PressureChanged += OxygenConsumer_PressureChanged;
             }
         }
     }
@@ -40,7 +51,7 @@ public class PlayerScript : MonoBehaviour
 
     private void OxygenConsumer_PressureChanged(OxygenConsumer oxygenConsumer)
     {
-        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure / this.MaxDisplayPressure) - this.PressureTolerance / this.MaxDisplayPressure);
+        this.hudController.setOxygenValue((oxygenConsumer.CurrentPressure  - this.PressureTolerance) / this.MaxDisplayPressure);
 
         if(oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {
