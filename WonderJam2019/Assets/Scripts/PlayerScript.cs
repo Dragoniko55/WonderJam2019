@@ -58,16 +58,16 @@ public class PlayerScript : MonoBehaviour
         if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
         {
 
-            StartCoroutine(die(oxygenConsumer));
+            StartCoroutine(die());
             
         }
     }
 
-    IEnumerator die(OxygenConsumer oxygenConsumer)
+    IEnumerator die()
     {
         //cought
         yield return new WaitForSeconds(5f);
-        if (oxygenConsumer.CurrentPressure < this.PressureTolerance)
+        if (!CurrentRoom.IsPressurised())
         {
 
             SceneManager.LoadScene(3);
